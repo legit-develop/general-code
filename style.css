@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Tahoma;
+  background: rgb(15, 15, 70);
+  color: #fff;
+}
+
+h1,
+p {
+  text-align: center;
+  margin: 0.9em 0;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 500px;
+}
