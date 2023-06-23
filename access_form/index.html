@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Access Form</title>
+  </head>
+  <body>
+    <header>
+      <img src="./2.png" alt="logo" id="logo" />
+      <nav>
+        <ul>
+          <li><a href="#student-info">Student Info</a></li>
+          <li><a href="#html-questions">HTML</a></li>
+          <li><a href="#css-questions">CSS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form
+        action="https://freecodecamp.org/practice-project/accessibilty"
+        method="post"
+      >
+        <section role="region" aria-labelledby="student-info">
+          <h2 id="student-info">Student Info</h2>
+          <div class="info">
+            <label for="student-name">Name: </label>
+            <input type="text" name="student-name" id="student-name" />
+            <div class="info">
+              <label for="birth-date">D.O.B</label>
+            </div>
+          </div>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
