@@ -36,3 +36,12 @@ html {
   position: relative;
   border-radius: 0 0 3px 3px;
 }
+
+.key.black--key::after {
+  background: #000;
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 100px;
+  left: -18px;
+}
