@@ -18,4 +18,21 @@ html {
   padding: 90px 20px 0 30px;
 }
 
+.keys {
+  background: #000;
+  width: 949px;
+  height: 180px;
+  padding-left: 2px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.key {
+  background: #fff;
+  width: 41px;
+  height: 175px;
+  margin: 2px;
+  float: left;
+  position: relative;
+  border-radius: 0 0 3px 3px;
 }
