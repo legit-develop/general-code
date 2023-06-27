@@ -11,3 +11,26 @@ body {
   left: 0;
   z-index: -1;
 }
+
+#offwhite-character {
+  width: 300px;
+  height: 550px;
+  background: rgb(250, 244, 244);
+  position: absolute;
+  top: 20%;
+  left: 17.5%;
+}
+
+#white-hat {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 120px 140px 180px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: rgb(250, 244, 244);
+  border-left-color: transparent;
+  position: absolute;
+  top: -140px;
+  left: 0;
+}
