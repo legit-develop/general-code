@@ -50,3 +50,17 @@ hr {
   margin: 1.5rem 0;
   border: 1px solid rgba(120, 120, 120, 0.6);
 }
+
+.heading {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1.5rem;
+}
+
+.text {
+  grid-column: 2 / 3;
+  font-size: 1.8rem;
+  letter-spacing: 0.6rem;
+  text-align: justify;
+}
