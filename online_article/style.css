@@ -64,3 +64,23 @@ hr {
   letter-spacing: 0.6rem;
   text-align: justify;
 }
+
+.hero {
+  grid-column: 1 / -1;
+  position: relative;
+}
+
+.hero-title {
+  font-size: center;
+  color: orangered;
+  font-size: 8rem;
+}
+
+.author {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.author-name a:hover {
+  background: #306203;
+}
