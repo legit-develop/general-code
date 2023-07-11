@@ -4,6 +4,18 @@
   height: 55vw;
   max-width: 500px;
   max-height: 500px;
-  margin: 100px auto;
   border-radius: 50%;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+
+.line {
+  background: #000;
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 0%;
 }
