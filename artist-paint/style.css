@@ -1,3 +1,10 @@
 body {
   background: rgb(184, 132, 46);
 }
+
+#back-wall {
+  background: #8b4513;
+  width: 100%;
+  height: 60%;
+  position: absolute;
+}
