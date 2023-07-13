@@ -17,3 +17,17 @@ body {
   top: 20%;
   left: 17.5%;
 }
+
+#white-hat {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 120px 140px 180px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: ghostwhite;
+  border-left-color: transparent;
+  position: absolute;
+  top: -140px;
+  left: 0;
+}
