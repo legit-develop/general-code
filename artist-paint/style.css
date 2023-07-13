@@ -41,3 +41,13 @@ body {
   left: 0;
   z-index: 1;
 }
+
+#gray-instrument {
+  width: 15%;
+  height: 40%;
+  background: rgb(167, 162, 117);
+  position: absolute;
+  top: 50px;
+  left: 125px;
+  z-index: 1;
+}
