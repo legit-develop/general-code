@@ -8,3 +8,12 @@ body {
   height: 60%;
   position: absolute;
 }
+
+#offwhite-character {
+  width: 300px;
+  height: 550px;
+  background: ghostwhite;
+  position: absolute;
+  top: 20%;
+  left: 17.5%;
+}
