@@ -61,3 +61,13 @@ body {
   margin: auto;
   margin-top: 65%;
 }
+
+#tan-table {
+  width: 450px;
+  height: 140px;
+  background: #d2691e;
+  position: absolute;
+  top: 275px;
+  left: 15px;
+  z-index: 1;
+}
