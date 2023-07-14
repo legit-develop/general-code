@@ -51,3 +51,13 @@ body {
   left: 125px;
   z-index: 1;
 }
+
+.black-dot {
+  width: 10px;
+  height: 10px;
+  background: rgb(45, 31, 19);
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 65%;
+}
