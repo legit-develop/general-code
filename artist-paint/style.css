@@ -201,3 +201,14 @@ body {
   background: goldenrod;
   border-radius: 50%;
 }
+
+#guitar-left {
+  position: absolute;
+  left: 100px;
+}
+
+.fa-bars {
+  display: block;
+  margin-top: 30%;
+  margin-left: 40%;
+}
