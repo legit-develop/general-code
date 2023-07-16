@@ -139,3 +139,12 @@ body {
   top: 50%;
   left: 40%;
 }
+
+#orange-character {
+  width: 250px;
+  height: 550px;
+  background: rgb(240, 78, 42);
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
