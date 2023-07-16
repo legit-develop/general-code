@@ -168,3 +168,8 @@ body {
   left: 20px;
   z-index: 3;
 }
+
+#triangle {
+  width: 250px;
+  height: 550px;
+}
