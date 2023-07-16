@@ -119,3 +119,15 @@ body {
   margin-top: 8%;
   margin-left: 13%;
 }
+
+.blue {
+  background: #1e90ff;
+}
+
+#blue-left {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
