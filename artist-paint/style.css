@@ -148,3 +148,14 @@ body {
   top: 25%;
   left: 40%;
 }
+
+#black-round-hat {
+  width: 180px;
+  height: 150px;
+  background: rgb(45, 31, 19);
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  left: 5px;
+  z-index: -1;
+}
