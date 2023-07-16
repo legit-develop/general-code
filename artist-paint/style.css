@@ -173,3 +173,15 @@ body {
   width: 250px;
   height: 550px;
 }
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 42px 45px 45px 0;
+  border-top-color: transparent;
+  border-right-color: Gold;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  display: inline-block;
+}
