@@ -79,3 +79,11 @@ body {
   border-radius: 70% 70% 60% 60%;
   top: 15%;
 }
+
+.face.left {
+  left: 5%;
+}
+
+.face.right {
+  right: 5%;
+}
