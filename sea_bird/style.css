@@ -52,3 +52,12 @@ body {
   position: relative;
   transition: transform 1s ease-in-out 0ms;
 }
+
+.penguin * {
+  position: absolute;
+}
+
+.penguin:active {
+  transform: scale(1.5);
+  cursor: not-allowed;
+}
