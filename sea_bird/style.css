@@ -155,3 +155,11 @@ body {
   top: 65%;
   left: 42%s;
 }
+
+.shirt {
+  font: bold 25px sans-serif;
+  top: 165px;
+  left: 127.5px;
+  z-index: 1;
+  color: #6a6969;
+}
