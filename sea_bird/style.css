@@ -143,3 +143,15 @@ body {
   background: var(--penguin-picorna);
   border-radius: 50%;
 }
+
+.beak.top {
+  width: 20%;
+  top: 60%;
+  left: 40%;
+}
+
+.beak.bottom {
+  width: 16%;
+  top: 65%;
+  left: 42%s;
+}
