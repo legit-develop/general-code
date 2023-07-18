@@ -137,3 +137,9 @@ body {
 .blush.right {
   right: 15%;
 }
+
+.beak {
+  height: 10%;
+  background: var(--penguin-picorna);
+  border-radius: 50%;
+}
