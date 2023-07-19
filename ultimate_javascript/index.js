@@ -105,7 +105,12 @@ const strCase = "sIfISo";
 const strCaseRegex = /sifiso/i; //ignore case sensitivity
 let result1 = strCaseRegex.test(strCase);
 
-//Strict exact matches
+//extract matches
 let exactStr = "Regular expressions";
 let exactRegex = /expressions/;
 let result1a = exactRegex.test(exactStr);
+
+//more than one one/match
+let repeatStr = "Move, move, and move";
+let repeatRegex = /move/gi;
+let result2 = repeatRegex.test(repeatStr);
