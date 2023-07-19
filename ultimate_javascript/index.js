@@ -104,4 +104,8 @@ let result = strRegex.test(myString);
 const strCase = "sIfISo";
 const strCaseRegex = /sifiso/i; //ignore case sensitivity
 let result1 = strCaseRegex.test(strCase);
-console.log(result1);
+
+//Strict exact matches
+let exactStr = "Regular expressions";
+let exactRegex = /expressions/;
+let result1a = exactRegex.test(exactStr);
