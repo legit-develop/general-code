@@ -20,3 +20,10 @@ myArr.push(2); //add element at the end of the array
 myArr.pop(); //remove element at the end
 myArr.shift(); //remove element at the front
 myArr.unshift(21); //add element at the front
+
+//Comparison operator
+//console.log(2 == "2"); //equality with type conversion
+//console.log(2 === "2"); //strictly equality, no type conversion
+//console.log(2 !== 3);
+//console.log(4 < 3);
+//console.log(5 > 2);
