@@ -64,3 +64,13 @@ function multiplyAll(arr) {
 }
 
 multiplyAll([1, 2, 3, 4]);
+
+//Add object properties to as function parameters
+const student = {
+  name: "Mark Cuban",
+  course: "Cyber security",
+};
+
+const courseMe = ({ name, course }) => console.log(name);
+
+//courseMe(student);
