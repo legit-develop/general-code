@@ -93,3 +93,8 @@ makeServerRequest.then((result) => {
 makeServerRequest.catch((error) => {
   console.log(error);
 });
+
+//Regular Expression
+const myString = "Hello, World!";
+const strRegex = /Hello/; //any letter for the string will return true
+let result = strRegex.test(myString);
