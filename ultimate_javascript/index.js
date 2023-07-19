@@ -95,6 +95,13 @@ makeServerRequest.catch((error) => {
 });
 
 //Regular Expression
+//string
 const myString = "Hello, World!";
 const strRegex = /Hello/; //any letter for the string will return true
 let result = strRegex.test(myString);
+
+//case sensitivity
+const strCase = "sIfISo";
+const strCaseRegex = /sifiso/i; //ignore case sensitivity
+let result1 = strCaseRegex.test(strCase);
+console.log(result1);
