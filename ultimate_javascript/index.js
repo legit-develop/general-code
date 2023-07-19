@@ -74,3 +74,14 @@ const student = {
 const courseMe = ({ name, course }) => console.log(name);
 
 //courseMe(student);
+
+//Promise
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  let responseFromServer;
+  if (responseFromServer) {
+    resolve("Got the data");
+  } else {
+    //reject("Did not receive data");
+  }
+});
