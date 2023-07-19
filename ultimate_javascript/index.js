@@ -44,10 +44,10 @@ switch (username) {
 
 //Adding element of an array
 function addAll(arr) {
-  let product = 0;
+  let sum = 0;
   for (let i = 0; i < arr.length; i++) {
-    product += arr[i];
+    sum += arr[i];
   }
-  return product;
+  return sum;
 }
-console.log(addAll([1, 2, 3, 4]));
+console.log(addAll([1, 2, 3, 4, 4]));
