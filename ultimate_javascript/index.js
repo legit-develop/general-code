@@ -41,3 +41,13 @@ switch (username) {
     answer += "make a selection";
     break;
 }
+
+//Adding element of an array
+function addAll(arr) {
+  let product = 0;
+  for (let i = 0; i < arr.length; i++) {
+    product += arr[i];
+  }
+  return product;
+}
+console.log(addAll([1, 2, 3, 4]));
