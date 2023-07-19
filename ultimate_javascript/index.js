@@ -85,3 +85,11 @@ const makeServerRequest = new Promise((resolve, reject) => {
     //reject("Did not receive data");
   }
 });
+
+makeServerRequest.then((result) => {
+  console.log(result);
+});
+
+makeServerRequest.catch((error) => {
+  console.log(error);
+});
