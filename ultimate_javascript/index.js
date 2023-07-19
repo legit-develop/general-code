@@ -27,3 +27,17 @@ myArr.unshift(21); //add element at the front
 //console.log(2 !== 3);
 //console.log(4 < 3);
 //console.log(5 > 2);
+
+let username = "mike";
+let answer;
+switch (username) {
+  case "sifiso":
+    answer += "not a user";
+    break;
+  case "stan":
+    answer += "found user";
+    break;
+  default:
+    answer += "make a selection";
+    break;
+}
