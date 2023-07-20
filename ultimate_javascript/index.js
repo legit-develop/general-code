@@ -202,3 +202,9 @@ let num_letter_short = /\W/;
 let numbus = "42";
 let sentence = "Coding!";
 let result_1 = numbus.match(num_letter_short);
+
+//Example
+let sample_quote = "The five boxing wizards jump quickly";
+let nonAlphabetRegex = /\W/g;
+let alphabet_result = sample_quote.match(nonAlphabetRegex);
+console.log(alphabet_result);
