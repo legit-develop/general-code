@@ -188,3 +188,9 @@ let varNames = "important-var";
 let testLong = longHand.test(numbers);
 let testShort = shortHand.test(numbers);
 let test_long = longHand.test(varNames);
+
+//Using shorthand characters class
+let quote_sample = "The five boxing wizard jump quickly";
+let quote_regex = /\w/g;
+let sample_test = quote_regex.test(quote_sample);
+console.log(sample_test);
