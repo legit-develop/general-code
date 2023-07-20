@@ -193,4 +193,12 @@ let test_long = longHand.test(varNames);
 let quote_sample = "The five boxing wizard jump quickly";
 let quote_regex = /\w/g;
 let sample_test = quote_regex.test(quote_sample);
-console.log(sample_test);
+
+//Match everything except letters and numbers
+// \W
+// [^A-Za-z0-9_]
+
+let num_letter_short = /\W/;
+let numbus = "42";
+let sentence = "Coding!";
+let result_1 = numbus.match(num_letter_short);
