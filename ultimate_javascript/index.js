@@ -128,4 +128,13 @@ let result3 = allstrRegex.test(allStr);
 let bagStr = "bog";
 let bagRegex = /b[aieu]g/;
 let result3a = bagRegex.test(bagStr);
-console.log(result3a);
+
+//find all vowels
+let quoteSample =
+  "Beware of bugs in the above code, I have only proved it correct";
+let vowelRegex = /[aeiou]/gi;
+let result4a = quoteSample.match(vowelRegex);
+
+//Match letters of alphabet
+let alphabetRegex = /[a-z]/gi;
+let result4s = quoteSample.match(alphabetRegex);
