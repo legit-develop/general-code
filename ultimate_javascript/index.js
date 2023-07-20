@@ -114,3 +114,10 @@ let result1a = exactRegex.test(exactStr);
 let repeatStr = "Move, move, and move";
 let repeatRegex = /move/gi;
 let result2 = repeatRegex.test(repeatStr);
+
+//wildcards
+// . all character
+let allStr = "I'll hug a song";
+let allstrRegex = /hu./;
+let result3 = allstrRegex.test(allStr);
+console.log(result3);
