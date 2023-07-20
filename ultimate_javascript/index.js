@@ -171,3 +171,8 @@ let result7 = text.match(moRegex);
 let firstString = "Ricky is first and is found";
 let firstRegex = /^Ricky/;
 let result7a = firstRegex.test(firstString);
+
+//Match ending string pattern
+let theEnding = "This is a ending story";
+let storyRegex = /story$/;
+let storyTest = storyRegex.test(theEnding);
