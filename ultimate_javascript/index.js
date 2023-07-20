@@ -150,3 +150,9 @@ let result5 = sampleQuote.match(myRegex);
 let quoteSample1 = "4 blind mice";
 let myaRegex = /[^0-9aeiou]/gi;
 let result6 = quoteSample1.match(myaRegex);
+
+//Match characters that appear more than once
+
+let mySti = "Misksissippi";
+let muRegex = /s+/gi;
+let result5a = mySti.match(muRegex);
