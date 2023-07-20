@@ -160,3 +160,9 @@ let result5a = mySti.match(muRegex);
 let chewieQuote = "Aaaaaaaaaarrrgh!";
 let chewieRegex = /a*/i;
 let result6a = chewieQuote.match(chewieRegex);
+
+//Lazy Matching
+//Find the smallest part of the regex pattern and return if as a match
+let text = "<h1>Winter is coming</h1>";
+let moRegex = /<.*?>/;
+let result7 = text.match(moRegex);
