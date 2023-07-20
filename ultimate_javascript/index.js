@@ -176,3 +176,15 @@ let result7a = firstRegex.test(firstString);
 let theEnding = "This is a ending story";
 let storyRegex = /story$/;
 let storyTest = storyRegex.test(theEnding);
+
+//Match all the letters and numbers
+// [A-Za-z0-9_]  - character class matches upper and lower and numbers
+// \w alternative match
+
+let longHand = /[A-Za-z0-9_]+/;
+let shortHand = /\w+/;
+let numbers = "42";
+let varNames = "important-var";
+let testLong = longHand.test(numbers);
+let testShort = shortHand.test(numbers);
+let test_long = longHand.test(varNames);
