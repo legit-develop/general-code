@@ -166,3 +166,8 @@ let result6a = chewieQuote.match(chewieRegex);
 let text = "<h1>Winter is coming</h1>";
 let moRegex = /<.*?>/;
 let result7 = text.match(moRegex);
+
+//Match beginning string pattern [^] ^[]
+let firstString = "Ricky is first and is found";
+let firstRegex = /^Ricky/;
+let result7a = firstRegex.test(firstString);
