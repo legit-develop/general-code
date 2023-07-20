@@ -138,3 +138,8 @@ let result4a = quoteSample.match(vowelRegex);
 //Match letters of alphabet
 let alphabetRegex = /[a-z]/gi;
 let result4s = quoteSample.match(alphabetRegex);
+
+//Match letters h - s and number 2 - 6
+let sampleQuote = "Blueberry 3.141592653s";
+let myRegex = /[h-s2-6]/gi;
+let result5 = sampleQuote.match(myRegex);
