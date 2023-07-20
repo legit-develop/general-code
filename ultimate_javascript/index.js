@@ -143,3 +143,10 @@ let result4s = quoteSample.match(alphabetRegex);
 let sampleQuote = "Blueberry 3.141592653s";
 let myRegex = /[h-s2-6]/gi;
 let result5 = sampleQuote.match(myRegex);
+
+//Match single characters not specified
+// ^
+//Match characters that are not numbers and vowels
+let quoteSample1 = "4 blind mice";
+let myaRegex = /[^0-9aeiou]/gi;
+let result6 = quoteSample1.match(myaRegex);
