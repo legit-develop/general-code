@@ -207,4 +207,9 @@ let result_1 = numbus.match(num_letter_short);
 let sample_quote = "The five boxing wizards jump quickly";
 let nonAlphabetRegex = /\W/g;
 let alphabet_result = sample_quote.match(nonAlphabetRegex);
-console.log(alphabet_result);
+
+//Match all numbers
+// \d
+let movieName = "2001: A space Odyssey";
+let digitRegex = /\d/g;
+let digit_result = movieName.match(digitRegex);
