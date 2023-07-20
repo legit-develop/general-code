@@ -120,4 +120,12 @@ let result2 = repeatRegex.test(repeatStr);
 let allStr = "I'll hug a song";
 let allstrRegex = /hu./;
 let result3 = allstrRegex.test(allStr);
-console.log(result3);
+
+//Single character with multiple possibility
+//Character classes [ ]
+
+//match bag beg big bug and not bog
+let bagStr = "bog";
+let bagRegex = /b[aieu]g/;
+let result3a = bagRegex.test(bagStr);
+console.log(result3a);
