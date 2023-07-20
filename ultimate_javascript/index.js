@@ -213,3 +213,8 @@ let alphabet_result = sample_quote.match(nonAlphabetRegex);
 let movieName = "2001: A space Odyssey";
 let digitRegex = /\d/g;
 let digit_result = movieName.match(digitRegex);
+
+//Matching all non digit elements
+// \D
+let non_num_regex = /\D/g;
+let non_num_result = movieName.match(non_num_regex);
