@@ -219,4 +219,9 @@ let digit_result = movieName.match(digitRegex);
 let non_num_regex = /\D/g;
 let non_num_result = movieName.match(non_num_regex);
 let movie_result = movieName.match(non_num_regex);
-console.log(movie_result);
+
+//username possible restriction
+
+let user_name = "JackOfAllTrades";
+let user_regex = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i;
+let user_result = user_name.match(user_regex);
