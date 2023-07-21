@@ -295,3 +295,9 @@ let fra_str = "Franklin Roosevelt";
 let str_regex = /(Franklin D|Eleanor)\sRoosevelt/;
 let result_ele = str_regex.test(ele_str);
 let result_fra = str_regex.test(fra_str);
+
+//Reuse Patterns using capture group
+// \W
+let repeatNum = "42 42 42";
+let re_regex = /^(\d+) \1 \1$/;
+let result_rex = re_regex.test(repeatNum);
