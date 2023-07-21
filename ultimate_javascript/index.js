@@ -247,4 +247,13 @@ let multiple_a = /a{3,5}h/;
 let ohStr = "Ohhh no";
 let ohRegex = /Oh{3,6}\Sno/;
 let oh_result = ohRegex.test(ohStr);
-console.log(oh_result);
+
+//Specify only the lower number of matches
+let haStr = "Hazzzzah";
+let haRegex = /haz{4,}ah/;
+let result_ha = haRegex.test(haStr);
+
+//Specify the exact number of matches
+let timStr = "Timmmmber";
+let timRegex = /Tim{4}ber/;
+let result_tim = timRegex.test(timStr);
