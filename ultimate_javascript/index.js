@@ -237,4 +237,14 @@ let space_regex_result = whiteSpace.match(space_regex);
 // [^\r\t\f\n\v]
 let non_white_space = /\S/g;
 let non_whitespace_result = whiteSpace.match(non_white_space);
-console.log(non_whitespace_result);
+
+//Specify upper and lower number of matches
+let A4 = "aaaah";
+let A2 = "aah";
+let multiple_a = /a{3,5}h/;
+
+//Match the entire string with one or more letters
+let ohStr = "Ohhh no";
+let ohRegex = /Oh{3,6}\Sno/;
+let oh_result = ohRegex.test(ohStr);
+console.log(oh_result);
