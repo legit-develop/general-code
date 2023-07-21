@@ -307,3 +307,9 @@ let result_rex = re_regex.test(repeatNum);
 let wrong_text = "The sky is silver";
 let silver_regex = /silver/;
 let result_silver = wrong_text.replace(silver_regex, "blue");
+
+//Changing order
+let order_text = "one two three";
+let order_regex = /(\w+)\s(\w+)\s(\w+)/;
+let replace_text = "$3 $2 $1";
+let result_replace = order_text.replace(order_regex, replace_text);
