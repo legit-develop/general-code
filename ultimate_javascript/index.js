@@ -273,10 +273,17 @@ let brit_result = favRegex.test(brit_word);
 let pass_word = "abc123";
 let check_pass_regex = /(?=\w{3,6})(?=\D*\d)/;
 let result_check = check_pass_regex.test(pass_word);
-console.log(result_check);
 
 //Password match greater greater than 5 letters and 2 consecutive digits
 
 let sample_word = "astronaut";
 let pw_regex = /(?=\w{6})(?=\D\{2}\d)/;
 let result_pw = pw_regex.test(sample_word);
+
+//Check for mix grouping
+//Penguin or Pumpkin
+let pump_str = "Pumpkin";
+let peng_str = "Penguin";
+let test_regex = /P(engu|umpk)in/;
+let result_pump = test_regex.test(pump_str);
+let result_peng = test_regex.test(peng_str);
