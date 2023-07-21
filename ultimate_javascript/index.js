@@ -225,3 +225,9 @@ let movie_result = movieName.match(non_num_regex);
 let user_name = "JackOfAllTrades";
 let user_regex = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i;
 let user_result = user_name.match(user_regex);
+
+//Match white space
+// \s
+let whiteSpace = "whitespace demonstrate in between";
+let space_regex = /\s/g;
+let space_regex_result = whiteSpace.match(space_regex);
