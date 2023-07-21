@@ -301,3 +301,9 @@ let result_fra = str_regex.test(fra_str);
 let repeatNum = "42 42 42";
 let re_regex = /^(\d+) \1 \1$/;
 let result_rex = re_regex.test(repeatNum);
+
+//Use capture groups to search and replace
+
+let wrong_text = "The sky is silver";
+let silver_regex = /silver/;
+let result_silver = wrong_text.replace(silver_regex, "blue");
