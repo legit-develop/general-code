@@ -287,3 +287,11 @@ let peng_str = "Penguin";
 let test_regex = /P(engu|umpk)in/;
 let result_pump = test_regex.test(pump_str);
 let result_peng = test_regex.test(peng_str);
+
+//Check for Franklin Roosevelt or Eleanor Roosevelt
+
+let ele_str = "Eleanor Roosevelt";
+let fra_str = "Franklin Roosevelt";
+let str_regex = /(Franklin D|Eleanor)\sRoosevelt/;
+let result_ele = str_regex.test(ele_str);
+let result_fra = str_regex.test(fra_str);
