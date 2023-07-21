@@ -313,3 +313,8 @@ let order_text = "one two three";
 let order_regex = /(\w+)\s(\w+)\s(\w+)/;
 let replace_text = "$3 $2 $1";
 let result_replace = order_text.replace(order_regex, replace_text);
+
+//Remove white spaces
+let hello = " Hello, World!  ";
+let spaceW_regex = /^\s+|\s+$/g;
+let result_space = hello.replace(spaceW_regex, "");
