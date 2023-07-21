@@ -318,3 +318,13 @@ let result_replace = order_text.replace(order_regex, replace_text);
 let hello = " Hello, World!  ";
 let spaceW_regex = /^\s+|\s+$/g;
 let result_space = hello.replace(spaceW_regex, "");
+
+//copy array
+function copyMachine(arr, num) {
+  let newArr = [];
+  while (num >= 1) {
+    newArr.push([...arr]);
+    num--;
+  }
+  return newArr;
+}
