@@ -257,3 +257,11 @@ let result_ha = haRegex.test(haStr);
 let timStr = "Timmmmber";
 let timRegex = /Tim{4}ber/;
 let result_tim = timRegex.test(timStr);
+
+//check for zero or one of the preceding elements
+
+let usa_word = "favorite";
+let brit_word = "favourite";
+let favRegex = /favou?rite/;
+let usa_result = favRegex.test(usa_word);
+let brit_result = favRegex.test(brit_word);
