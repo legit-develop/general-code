@@ -218,3 +218,5 @@ let digit_result = movieName.match(digitRegex);
 // \D
 let non_num_regex = /\D/g;
 let non_num_result = movieName.match(non_num_regex);
+let movie_result = movieName.match(non_num_regex);
+console.log(movie_result);
