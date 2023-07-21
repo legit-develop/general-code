@@ -231,3 +231,10 @@ let user_result = user_name.match(user_regex);
 let whiteSpace = "whitespace demonstrate in between";
 let space_regex = /\s/g;
 let space_regex_result = whiteSpace.match(space_regex);
+
+//Match non-whiteSpaces
+// \S
+// [^\r\t\f\n\v]
+let non_white_space = /\S/g;
+let non_whitespace_result = whiteSpace.match(non_white_space);
+console.log(non_whitespace_result);
