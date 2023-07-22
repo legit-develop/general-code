@@ -370,3 +370,27 @@ delete foods.grapes;
 for (let fruit in foods) {
   //console.log(fruit);
 }
+
+//count number of online users
+
+const users = {
+  Allan: {
+    online: false,
+  },
+  Jeff: {
+    online: true,
+  },
+  Sarah: {
+    online: false,
+  },
+};
+
+function onlineUser(obj) {
+  let count = 0;
+  for (let user in obj) {
+    if (obj[user].online === true) {
+      count += 1;
+    }
+  }
+  return count;
+}
