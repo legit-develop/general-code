@@ -472,3 +472,14 @@ function factorize(num) {
 
   return sum;
 }
+
+//Longest word in the string
+
+function longStr(str) {
+  let wordArr = str.split("");
+  let numArray = [];
+  numArray.push(wordArr);
+  return wordArr;
+}
+
+console.log(longStr("bethuel"));
