@@ -328,3 +328,10 @@ function copyMachine(arr, num) {
   }
   return newArr;
 }
+
+//Check index of an element in an array
+let index_array = ["sifiso", "ben", "jill"];
+
+function checkIndex(arr, element) {
+  return arr.indexOf(element) === 1 ? true : false;
+}
