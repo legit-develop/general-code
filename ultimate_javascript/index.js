@@ -449,12 +449,26 @@ function reverseString(str) {
   return str_reverse;
 }
 
-console.log(reverseString("hello"));
-
 function turnString(str) {
   let turnStr = "";
   for (let i = str.length - 1; i >= 0; i--) {
     turnStr += str[i];
   }
   return turnStr;
+}
+
+//Factorize a number
+function factorize(num) {
+  let arr = [];
+  let sum = 1;
+
+  for (let i = num; i > 0; i--) {
+    arr.push(i);
+  }
+
+  for (let j = 0; j < arr.length; j++) {
+    sum = sum * arr[j];
+  }
+
+  return sum;
 }
