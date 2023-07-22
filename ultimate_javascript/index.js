@@ -394,3 +394,9 @@ function onlineUser(obj) {
   }
   return count;
 }
+
+//Create an array out of object keys
+function getArrayOfUsers(obj) {
+  const userKeys = Object.keys(obj);
+  return userKeys;
+}
