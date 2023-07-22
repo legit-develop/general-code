@@ -365,3 +365,8 @@ function fruitInventory(fruit) {
 
 //Delete object Properties
 delete foods.grapes;
+
+//Iterate an object
+for (let fruit in foods) {
+  //console.log(fruit);
+}
