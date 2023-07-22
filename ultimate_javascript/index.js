@@ -440,3 +440,21 @@ let reverse_str = "Sifiso";
 function reverseStr(str) {
   return str.split("").reverse().join("");
 }
+
+function reverseString(str) {
+  let str_reverse = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    str_reverse += str[i];
+  }
+  return str_reverse;
+}
+
+console.log(reverseString("hello"));
+
+function turnString(str) {
+  let turnStr = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    turnStr += str[i];
+  }
+  return turnStr;
+}
