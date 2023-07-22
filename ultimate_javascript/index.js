@@ -432,3 +432,11 @@ function convertCtoF(celcius) {
   let fahnrenheit = (celcius * 9) / 5 + 32;
   return fahnrenheit;
 }
+
+//2. Reverse a string
+
+let reverse_str = "Sifiso";
+
+function reverseStr(str) {
+  return str.split("").reverse().join("");
+}
