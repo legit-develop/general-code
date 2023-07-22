@@ -356,4 +356,9 @@ let foods = {
 };
 
 foods["grapes"] = 10;
-console.log(foods);
+
+//fruit invetory
+
+function fruitInventory(fruit) {
+  return foods[fruit];
+}
