@@ -345,3 +345,15 @@ let food = {
 
 let lastProperty = "strawberries";
 food[lastProperty] = 10;
+
+//Access property with bracket notation
+
+let foods = {
+  apples: 20,
+  oranges: 32,
+  plums: 28,
+  bananas: 13,
+};
+
+foods["grapes"] = 10;
+console.log(foods);
