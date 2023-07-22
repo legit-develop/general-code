@@ -335,3 +335,13 @@ let index_array = ["sifiso", "ben", "jill"];
 function checkIndex(arr, element) {
   return arr.indexOf(element) === 1 ? true : false;
 }
+
+//Other iterate method include every() forEach() map()
+
+//Dynamic objects
+let food = {
+  apples: 23,
+};
+
+let lastProperty = "strawberries";
+food[lastProperty] = 10;
