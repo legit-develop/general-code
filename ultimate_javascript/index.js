@@ -476,10 +476,12 @@ function factorize(num) {
 //Longest word in the string
 
 function longStr(str) {
-  let wordArr = str.split("");
+  let wordArr = str.split(" ");
   let numArray = [];
-  numArray.push(wordArr);
+  numArray.push(...wordArr);
+  let longWord = 0;
+  for (let i = 0; i < numArray.length; i++) {}
   return wordArr;
 }
 
-console.log(longStr("bethuel"));
+console.log(longStr("bethuel dhlamini"));
