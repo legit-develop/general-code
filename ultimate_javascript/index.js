@@ -401,6 +401,8 @@ function getArrayOfUsers(obj) {
   return userKeys;
 }
 
+//Add an element in an array for an element
+
 let friend_user = {
   name: "Kenneth",
   age: 28,
@@ -417,7 +419,16 @@ let friend_user = {
   },
 };
 
-function addFriend(obj) {
-  obj.data.friends.push("dhlamini", "bethuel");
+function addFriend(obj, friend) {
+  obj.data.friends.push(friend);
   return obj.data.friends;
+}
+
+//Basic Algorithm scripting
+
+//1. Convert celcius to Frahrenheit
+
+function convertCtoF(celcius) {
+  let fahnrenheit = (celcius * 9) / 5 + 32;
+  return fahnrenheit;
 }
