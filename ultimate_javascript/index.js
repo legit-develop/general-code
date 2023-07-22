@@ -362,3 +362,6 @@ foods["grapes"] = 10;
 function fruitInventory(fruit) {
   return foods[fruit];
 }
+
+//Delete object Properties
+delete foods.grapes;
