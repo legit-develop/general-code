@@ -400,3 +400,24 @@ function getArrayOfUsers(obj) {
   const userKeys = Object.keys(obj);
   return userKeys;
 }
+
+let friend_user = {
+  name: "Kenneth",
+  age: 28,
+  data: {
+    username: "kennethCodesAllDay",
+    joinDate: "March 26, 2016",
+    organization: "freeCodeCamp",
+    friends: ["Sam", "Kira", "John"],
+    location: {
+      city: "San Francisco",
+      state: "CA",
+      country: "USA",
+    },
+  },
+};
+
+function addFriend(obj) {
+  obj.data.friends.push("dhlamini", "bethuel");
+  return obj.data.friends;
+}
