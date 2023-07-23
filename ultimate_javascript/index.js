@@ -508,11 +508,8 @@ function largeOfFour(arr) {
   return largeNum;
 }
 
-console.log(
-  largeOfFour([
-    [1, 2, 3, 64],
-    [10, 20, 30, 40],
-    [12, 14, 15, 70],
-    [10, 3, 40, 50],
-  ])
-);
+function confirmEnding(str, target) {
+  return str;
+}
+
+console.log(confirmEnding("sifiso"));
