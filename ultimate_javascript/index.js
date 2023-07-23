@@ -528,7 +528,8 @@ function repeatString(str, num) {
 //Using basic algorithm
 
 function repeatStrNum(str, num) {
-  let myStr = str;
+  let myStr = "";
+  for (let i = num; i > 0; i++) {}
   return myStr;
 }
 
