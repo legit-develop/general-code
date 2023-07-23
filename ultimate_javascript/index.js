@@ -518,7 +518,7 @@ function confirmEnding(str, target) {
 }
 
 function repeatString(str, num) {
-  return str;
-}
+  let repeatStr = str.repeat(num);
 
-console.log(repeatString("sifisos"));
+  return repeatStr;
+}
