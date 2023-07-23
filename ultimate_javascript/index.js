@@ -487,4 +487,11 @@ function longStr(str) {
   return longWord;
 }
 
-console.log(longStr("bethuel dhlamini lokothwayo"));
+//Alternative solution
+
+function findLongStr(str) {
+  let strArr = str.split(" ");
+  return strArr;
+}
+
+console.log(findLongStr("the main thing of the street"));
