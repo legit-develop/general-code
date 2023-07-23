@@ -509,7 +509,10 @@ function largeOfFour(arr) {
 }
 
 function confirmEnding(str, target) {
-  return str;
+  let lastString = str.slice(-target.length);
+  if (lastString === target) {
+    return true;
+  } else {
+    return false;
+  }
 }
-
-console.log(confirmEnding("sifiso"));
