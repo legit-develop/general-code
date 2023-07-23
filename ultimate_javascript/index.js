@@ -516,3 +516,9 @@ function confirmEnding(str, target) {
     return false;
   }
 }
+
+function repeatString(str, num) {
+  return str;
+}
+
+console.log(repeatString("sifisos"));
