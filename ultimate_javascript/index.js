@@ -498,4 +498,17 @@ function findLongStr(str) {
   return `long word is ${longestStr} with ${longestStr.length} letters`;
 }
 
-console.log(findLongStr("the main thing of the street"));
+//return largest number in a multidimensional array
+
+function largeOfFour(arr) {
+  return arr;
+}
+
+console.log(
+  largeOfFour([
+    [1, 2, 3, 64],
+    [10, 20, 30, 40],
+    [12, 14, 15, 70],
+    [10, 3, 40, 50],
+  ])
+);
