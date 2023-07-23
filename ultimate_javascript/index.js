@@ -501,7 +501,11 @@ function findLongStr(str) {
 //return largest number in a multidimensional array
 
 function largeOfFour(arr) {
-  return arr;
+  let largeNum = [];
+  for (let i = 0; i < arr.length; i++) {
+    largeNum.push(Math.max(...arr[i]));
+  }
+  return largeNum;
 }
 
 console.log(
