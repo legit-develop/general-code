@@ -482,7 +482,9 @@ function longStr(str) {
   for (let i = 0; i < wordArr.length; i++) {
     numWord.push(wordArr[i].length);
   }
-  return numWord;
+  longWord = Math.max(...numWord);
+
+  return longWord;
 }
 
 console.log(longStr("bethuel dhlamini lokothwayo"));
