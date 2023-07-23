@@ -529,8 +529,14 @@ function repeatString(str, num) {
 
 function repeatStrNum(str, num) {
   let myStr = "";
-  for (let i = num; i > 0; i++) {}
+  for (let i = num; i > 0; i--) {
+    if (num < 0) {
+      return myStr;
+    } else {
+      myStr += str;
+    }
+  }
   return myStr;
 }
 
-console.log(repeatStrNum("Bethuel"));
+console.log(repeatStrNum("Bethuel", 2));
