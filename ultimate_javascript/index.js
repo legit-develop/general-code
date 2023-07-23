@@ -477,7 +477,12 @@ function factorize(num) {
 
 function longStr(str) {
   let wordArr = str.split(" ");
-  return wordArr;
+  let numWord = [];
+  let longWord = 0;
+  for (let i = 0; i < wordArr.length; i++) {
+    numWord.push(wordArr[i].length);
+  }
+  return numWord;
 }
 
 console.log(longStr("bethuel dhlamini lokothwayo"));
