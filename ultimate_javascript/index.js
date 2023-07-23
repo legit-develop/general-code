@@ -517,8 +517,19 @@ function confirmEnding(str, target) {
   }
 }
 
+//Repeat a string
+//Using repeat() method
 function repeatString(str, num) {
   let repeatStr = str.repeat(num);
 
   return repeatStr;
 }
+
+//Using basic algorithm
+
+function repeatStrNum(str, num) {
+  let myStr = str;
+  return myStr;
+}
+
+console.log(repeatStrNum("Bethuel"));
