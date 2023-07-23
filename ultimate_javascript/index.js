@@ -539,4 +539,10 @@ function repeatStrNum(str, num) {
   return myStr;
 }
 
-console.log(repeatStrNum("Bethuel", 2));
+//Cut the string
+
+function truncateString(str, num) {
+  return str;
+}
+
+console.log(truncateString("sifisi", 2));
