@@ -491,7 +491,11 @@ function longStr(str) {
 
 function findLongStr(str) {
   let strArr = str.split(" ");
-  return strArr;
+  let longestStr = "";
+  for (let i = 0; i < strArr.length; i++) {
+    if (strArr[i].length >= longestStr.length) longestStr = strArr[i];
+  }
+  return `long word is ${longestStr} with ${longestStr.length} letters`;
 }
 
 console.log(findLongStr("the main thing of the street"));
