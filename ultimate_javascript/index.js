@@ -542,7 +542,10 @@ function repeatStrNum(str, num) {
 //Cut the string
 
 function truncateString(str, num) {
-  return str;
+  if (str.length > num) {
+    let cutStr = str.slice(0, num);
+  }
+  return str + "...";
 }
 
 console.log(truncateString("sifisi", 2));
