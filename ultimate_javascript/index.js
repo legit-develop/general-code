@@ -477,11 +477,7 @@ function factorize(num) {
 
 function longStr(str) {
   let wordArr = str.split(" ");
-  let numArray = [];
-  numArray.push(...wordArr);
-  let longWord = 0;
-  for (let i = 0; i < numArray.length; i++) {}
   return wordArr;
 }
 
-console.log(longStr("bethuel dhlamini"));
+console.log(longStr("bethuel dhlamini lokothwayo"));
