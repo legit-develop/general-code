@@ -569,8 +569,9 @@ function booWho(value) {
 //Title case a sentence
 
 function caseTitle(str) {
-  let arrayStr = str.split(" ");
+  let strSplit = str.toLowerCase().split(" ");
+  let arrayStr = [];
   return arrayStr;
 }
 
-console.log(caseTitle("dhlamini sifiso"));
+console.log(caseTitle("The Way I want"));
