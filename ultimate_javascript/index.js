@@ -577,10 +577,11 @@ function caseTitle(str) {
   return arrayStr.join(" ");
 }
 
-console.log(caseTitle("The Way I want"));
-
 //Slice and Splice
 
 function frankenSplice(arr1, arr2, n) {
   let newArray = [...arr2];
+  return [...newArray.splice(n - n, n), ...arr1, ...newArray];
 }
+
+console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
