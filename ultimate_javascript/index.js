@@ -578,3 +578,9 @@ function caseTitle(str) {
 }
 
 console.log(caseTitle("The Way I want"));
+
+//Slice and Splice
+
+function frankenSplice(arr1, arr2, n) {
+  let newArray = [...arr2];
+}
