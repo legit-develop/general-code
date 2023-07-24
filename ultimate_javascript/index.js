@@ -571,7 +571,10 @@ function booWho(value) {
 function caseTitle(str) {
   let strSplit = str.toLowerCase().split(" ");
   let arrayStr = [];
-  return arrayStr;
+  for (let i = 0; i < strSplit.length; i++) {
+    arrayStr.push(strSplit[i][0].toUpperCase() + strSplit[i].slice(1));
+  }
+  return arrayStr.join(" ");
 }
 
 console.log(caseTitle("The Way I want"));
