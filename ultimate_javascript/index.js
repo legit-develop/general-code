@@ -598,7 +598,8 @@ function bouncer(arr) {
 
 //Where Do I belong
 function insertIndex(arr, index) {
-  return index;
+  let sortArray = arr.sort((a, b) => a - b);
+  for (let i = 0; i < sortedArray.length; i++) {}
 }
 
 console.log(insertIndex([5, 4, 2, 1, 9], 3));
