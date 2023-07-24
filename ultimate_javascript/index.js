@@ -550,7 +550,11 @@ function truncateString(str, num) {
 
 //Finders Keepers
 function findElement(arr, func) {
-  return arr;
+  for (let i = 0; i < arr.length; i++) {
+    if (func(arr[i])) {
+      return arr[i];
+    }
+  }
 }
 
-console.log(findElement([1, 2, 3, 4]));
+console.log(findElement([1, 2, 3, 4], (num) => num % 2 === 0));
