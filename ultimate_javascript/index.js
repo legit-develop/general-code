@@ -548,4 +548,9 @@ function truncateString(str, num) {
   return str + "...";
 }
 
-console.log(truncateString("sifisi", 2));
+//Finders Keepers
+function findElement(arr, func) {
+  return arr;
+}
+
+console.log(findElement([1, 2, 3, 4]));
