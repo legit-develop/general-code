@@ -595,3 +595,10 @@ function bouncer(arr) {
   }
   return falsyArray;
 }
+
+//Where Do I belong
+function insertIndex(arr, index) {
+  return index;
+}
+
+console.log(insertIndex([5, 4, 2, 1, 9], 3));
