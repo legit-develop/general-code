@@ -600,11 +600,19 @@ function bouncer(arr) {
 function insertIndex(arr, index) {
   let sortArray = arr.sort((a, b) => a - b);
   for (let i = 0; i < sortArray.length; i++) {
-    if (num <= sortArray[i]) {
+    if (index <= sortArray[i]) {
       return i;
     }
   }
   return sortArray.length;
 }
+
+//Mutation
+
+function mutation(arr) {
+  return arr;
+}
+
+console.log(mutation([10, 14, 29]));
 
 console.log(insertIndex([5, 4, 2, 1, 9], 3));
