@@ -587,7 +587,11 @@ function frankenSplice(arr1, arr2, n) {
 //Falsy Bouncer
 
 function bouncer(arr) {
-  return arr;
+  let falsyArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (Boolean(arr[i]) === true) {
+      falsyArray.push(arr[i]);
+    }
+  }
+  return falsyArray;
 }
-
-console.log(bouncer([1, 2, 3]));
