@@ -557,8 +557,6 @@ function findElement(arr, func) {
   }
 }
 
-console.log(findElement([1, 2, 3, 4], (num) => num % 2 === 0));
-
 //Check if value is a boolean
 function booWho(value) {
   if (typeof value === "boolean") {
@@ -568,4 +566,11 @@ function booWho(value) {
   }
 }
 
-console.log(booWho("me"));
+//Title case a sentence
+
+function caseTitle(str) {
+  let arrayStr = str.split(" ");
+  return arrayStr;
+}
+
+console.log(caseTitle("dhlamini sifiso"));
