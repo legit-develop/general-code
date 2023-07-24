@@ -584,4 +584,10 @@ function frankenSplice(arr1, arr2, n) {
   return [...newArray.splice(n - n, n), ...arr1, ...newArray];
 }
 
-console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
+//Falsy Bouncer
+
+function bouncer(arr) {
+  return arr;
+}
+
+console.log(bouncer([1, 2, 3]));
