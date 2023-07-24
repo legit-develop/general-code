@@ -558,3 +558,10 @@ function findElement(arr, func) {
 }
 
 console.log(findElement([1, 2, 3, 4], (num) => num % 2 === 0));
+
+//Check if value is a boolean
+function booWho(value) {
+  return value;
+}
+
+console.log(booWho(true));
