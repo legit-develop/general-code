@@ -610,9 +610,14 @@ function insertIndex(arr, index) {
 //Mutation
 
 function mutation(arr) {
-  let firstElement = arr[0];
-  let secondElement = arr[1];
-  return secondElement;
+  let firstElement = arr[0].toLowerCase();
+  let secondElement = arr[1].toLowerCase();
+  for (let i = 0; i < secondElement.length; i++) {
+    if (firstElement.indexOf(secondElement[i]) === -1) {
+      return false;
+    }
+  }
+  return true;
 }
 
-console.log(mutation(["sifiso", "dhlamini"]));
+console.log(mutation(["Alien", "line"]));
