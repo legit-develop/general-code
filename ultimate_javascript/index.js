@@ -673,3 +673,6 @@ function Fly(name) {
   this.name = name;
   this.numLegs = 2;
 }
+
+let duck = new Fly("Donals");
+console.log(duck);
