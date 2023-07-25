@@ -623,7 +623,11 @@ function mutation(arr) {
 //Create Multidimensional Array
 
 function multDimArray(arr, size) {
-  return size;
+  let dimesionalArray = [];
+  for (let i = 0; i <= arr.length; i++) {
+    dimesionalArray.push(arr.splice(0, size));
+  }
+  return dimesionalArray;
 }
 
 console.log(multDimArray([1, 2, 3], 2));
