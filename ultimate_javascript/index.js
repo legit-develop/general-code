@@ -634,3 +634,8 @@ function multDimArray(arr, size) {
 //Accessing properties with dot notation and bracket
 //A property that is a method is actually a function
 //this keyword helps to reference the object even if the name changes.
+
+//this keyword
+function Bird() {
+  (this.name = "Albert"), (this.color = "blue"), (this.numLegs = 2);
+}
