@@ -665,4 +665,5 @@ function Fearther(name, color) {
 let eagle = new Fearther("john", "black");
 
 let cardinal = new Fearther("Bruce", "red");
-console.log(cardinal);
+
+cardinal instanceof Fearther;
