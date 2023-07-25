@@ -667,3 +667,9 @@ let eagle = new Fearther("john", "black");
 let cardinal = new Fearther("Bruce", "red");
 
 cardinal instanceof Fearther;
+
+//Own Properties - Properties defined directly on the instance
+function Fly(name) {
+  this.name = name;
+  this.numLegs = 2;
+}
