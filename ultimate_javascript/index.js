@@ -649,3 +649,7 @@ function Bird() {
 //Are defined with Capitalized name
 //use keyword this to set properties of the object they will create
 //They define properties instead of returning a value
+
+//Create an instance of an object
+let blueBird = new Bird();
+console.log(blueBird);
