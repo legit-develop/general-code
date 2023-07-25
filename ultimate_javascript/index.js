@@ -661,3 +661,5 @@ function Fearther(name, color) {
   this.color = color;
   this.numLegs = 2;
 }
+
+let eagle = new Fearther("john", "black");
