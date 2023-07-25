@@ -635,6 +635,11 @@ function multDimArray(arr, size) {
 //A property that is a method is actually a function
 //this keyword helps to reference the object even if the name changes.
 
+//Constructors
+//Are functions that create new objects
+//They define properties and behaviors that will belong to the new object
+//They are a blue print for creating a new object
+
 //this keyword
 function Bird() {
   (this.name = "Albert"), (this.color = "blue"), (this.numLegs = 2);
