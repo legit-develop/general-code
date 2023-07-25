@@ -630,4 +630,7 @@ function multDimArray(arr, size) {
   return dimesionalArray;
 }
 
-console.log(multDimArray([1, 2, 3], 2));
+//Object Orientated Programming
+//Accessing properties with dot notation and bracket
+//A property that is a method is actually a function
+//this keyword helps to reference the object even if the name changes.
