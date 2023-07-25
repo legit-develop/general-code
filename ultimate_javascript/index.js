@@ -653,3 +653,6 @@ function Bird() {
 //Create an instance of an object
 let blueBird = new Bird();
 console.log(blueBird);
+
+//Constructor function arguments
+//They help the constructor to create unique values
