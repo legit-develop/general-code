@@ -644,3 +644,8 @@ function multDimArray(arr, size) {
 function Bird() {
   (this.name = "Albert"), (this.color = "blue"), (this.numLegs = 2);
 }
+
+//Constructor Conventions
+//Are defined with Capitalized name
+//use keyword this to set properties of the object they will create
+//They define properties instead of returning a value
