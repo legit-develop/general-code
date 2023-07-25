@@ -620,4 +620,10 @@ function mutation(arr) {
   return true;
 }
 
-console.log(mutation(["Alien", "line"]));
+//Create Multidimensional Array
+
+function multDimArray(arr, size) {
+  return size;
+}
+
+console.log(multDimArray([1, 2, 3], 2));
