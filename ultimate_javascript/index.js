@@ -610,9 +610,9 @@ function insertIndex(arr, index) {
 //Mutation
 
 function mutation(arr) {
-  return arr;
+  let firstElement = arr[0];
+  let secondElement = arr[1];
+  return secondElement;
 }
 
-console.log(mutation([10, 14, 29]));
-
-console.log(insertIndex([5, 4, 2, 1, 9], 3));
+console.log(mutation(["sifiso", "dhlamini"]));
