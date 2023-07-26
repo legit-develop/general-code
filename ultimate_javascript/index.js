@@ -688,3 +688,9 @@ for (let property in duck) {
 //Use prototype to reduce duplicate
 
 Fly.prototype.numLugs = 2;
+
+//All instances automatically have the properties on the prototype
+//Prototype as a recipe for creating objects
+//Nearly every object in javascript has a prototype property which is part of the constructor function that created it
+//Own properties are defined directly on the object instance
+//Prototype properties are defined on the prototype.
