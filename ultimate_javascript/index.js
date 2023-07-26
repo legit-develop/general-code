@@ -694,3 +694,10 @@ Fly.prototype.numLugs = 2;
 //Nearly every object in javascript has a prototype property which is part of the constructor function that created it
 //Own properties are defined directly on the object instance
 //Prototype properties are defined on the prototype.
+
+//Own properties are defined directly on the object constructor
+//Prototype properties are defined on the prototype
+
+function Course(subject) {
+  this.subject = subject; //Own Property
+}
