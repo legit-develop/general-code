@@ -684,3 +684,7 @@ for (let property in duck) {
     ownProp.push(property);
   }
 }
+
+//Use prototype to reduce duplicate
+
+Fly.prototype.numLugs = 2;
