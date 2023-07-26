@@ -702,4 +702,6 @@ function Faculty(department) {
   this.department = department; //Own Property
 }
 
-Faculty.prototype.campus = "Pretoria";
+Faculty.prototype.campus = "Arcadia";
+
+let beth = new Faculty("Chemical Engineering");
