@@ -698,6 +698,6 @@ Fly.prototype.numLugs = 2;
 //Own properties are defined directly on the object constructor
 //Prototype properties are defined on the prototype
 
-function Course(subject) {
-  this.subject = subject; //Own Property
+function Faculty(department) {
+  this.department = department; //Own Property
 }
