@@ -675,4 +675,12 @@ function Fly(name) {
 }
 
 let duck = new Fly("Donals");
-console.log(duck);
+
+//Add own property toan array
+
+let ownProp = [];
+for (let property in duck) {
+  if (duck.hasOwnProperty(property)) {
+    ownProp.push(property);
+  }
+}
