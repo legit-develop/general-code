@@ -701,3 +701,5 @@ Fly.prototype.numLugs = 2;
 function Faculty(department) {
   this.department = department; //Own Property
 }
+
+Faculty.prototype.campus = "Pretoria";
