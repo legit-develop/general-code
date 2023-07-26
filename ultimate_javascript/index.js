@@ -711,3 +711,11 @@ let beth = new Faculty("Chemical Engineering");
 
 let setOwnProps = [];
 let prototypeProps = [];
+
+for (let property in beth) {
+  if (beth.hasOwnProperty(property)) {
+    setOwnProps.push(property);
+  } else {
+    prototypeProps.push(property);
+  }
+}
