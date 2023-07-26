@@ -705,3 +705,6 @@ function Faculty(department) {
 Faculty.prototype.campus = "Arcadia";
 
 let beth = new Faculty("Chemical Engineering");
+
+//Add own property to ownProps
+//Add prototype property to prototype props
