@@ -719,3 +719,5 @@ for (let property in beth) {
     prototypeProps.push(property);
   }
 }
+
+let checkBethConstructor = beth.constructor === Faculty;
