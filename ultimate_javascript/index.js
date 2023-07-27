@@ -796,3 +796,12 @@ Dog.prototype = {
 }
 
 //Describe method (function) is describe twice. Create a supertype to house the method
+
+function Animal() {};
+
+Animal.prototype = {
+  constructor: Animal,
+  describe: function() {
+    console.log("My name is " + this.name);
+  }
+}
