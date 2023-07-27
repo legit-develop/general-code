@@ -723,3 +723,10 @@ for (let property in beth) {
 let checkBethConstructor = beth.constructor === Faculty;
 
 //constructor property is a reference to the constructor function that created the instances
+function joinBird(candidate) {
+  if (candidate.constructor === Bird) {
+    return true;
+  } else {
+    return false;
+  }
+}
