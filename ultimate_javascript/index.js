@@ -763,4 +763,6 @@ duck instance of Bird        //true
   }
  }
 
- 
+ //Where Objects's Prototype comes from
+ //Objects inherit its prototype directly from the constructor function that enable it
+
