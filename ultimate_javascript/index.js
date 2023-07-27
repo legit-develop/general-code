@@ -811,3 +811,7 @@ Animal.prototype = {
 Bird.prototype = {
   constructor = Bird
 }
+
+Dog.prototype = {
+  constructor: Dog
+}
