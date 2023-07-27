@@ -794,3 +794,5 @@ Dog.prototype = {
     console.log("My name is " + this.name)
   }
 }
+
+//Describe method (function) is describe twice. Create a supertype to house the method
