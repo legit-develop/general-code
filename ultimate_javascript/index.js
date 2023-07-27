@@ -788,3 +788,9 @@ Bird.prototype = {
   }
 }
 
+Dog.prototype = {
+  constructor: Dog,
+  describe: function() {
+    console.log("My name is " + this.name)
+  }
+}
