@@ -805,3 +805,9 @@ Animal.prototype = {
     console.log("My name is " + this.name);
   }
 }
+
+//Remove describe method/function to both instances
+
+Bird.prototype = {
+  constructor = Bird
+}
