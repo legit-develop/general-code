@@ -751,4 +751,5 @@ duck.constructor = Bird      //false
 duck.constructor === Object  //true
 duck instance of Bird        //true
 
+//Whenever a prototype is set manually also define the constructor property
 
