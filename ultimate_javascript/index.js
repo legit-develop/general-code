@@ -773,3 +773,6 @@ Bird.prototype.isPrototypeOf(duck)   //duck is the object
 //All javascript objects have prototype
 //Object's prototype is itself an object and can have its own prototype.
 
+//Prototype of Bird.prototype is Object prototype
+duck.hasOwnProperty('name');
+
