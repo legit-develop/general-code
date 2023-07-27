@@ -776,3 +776,6 @@ Bird.prototype.isPrototypeOf(duck)   //duck is the object
 //Prototype of Bird.prototype is Object prototype
 duck.hasOwnProperty('name');
 
+//hasOwnProperty is defined in Object.prototype which can be accessed by duck
+// chain:   Object -> Bird -> Duck
+//Object is a supertype for all objects in Javascript
