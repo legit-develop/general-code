@@ -745,3 +745,10 @@ Bird.prototype = {
     console.log("My name is " + this.name);
   },
 };
+
+//Remember to set the constructor property when changing the prototype
+duck.constructor = Bird      //false
+duck.constructor === Object  //true
+duck instance of Bird        //true
+
+
