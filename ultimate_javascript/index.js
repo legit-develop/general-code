@@ -735,3 +735,13 @@ function joinBird(candidate) {
 
 //Change the prototype to a new object
 //A more efficient way is to get the prototype to a new object that already containing properties. Properties are all added at once.
+
+Bird.prototype = {
+  numLegs: 2,
+  cat: function () {
+    console.log("nom nom nom");
+  },
+  describe: function () {
+    console.log("My name is " + this.name);
+  },
+};
