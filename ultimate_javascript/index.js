@@ -779,3 +779,12 @@ duck.hasOwnProperty('name');
 //hasOwnProperty is defined in Object.prototype which can be accessed by duck
 // chain:   Object -> Bird -> Duck
 //Object is a supertype for all objects in Javascript
+
+//Use inheritance for (DRY) = don't repeat yourself
+Bird.prototype = {
+  constructor: Bird,
+  describe: function() {
+    console.log("My name is " + this.name);
+  }
+}
+
