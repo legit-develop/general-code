@@ -721,3 +721,5 @@ for (let property in beth) {
 }
 
 let checkBethConstructor = beth.constructor === Faculty;
+
+//constructor property is a reference to the constructor function that created the instances
