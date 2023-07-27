@@ -769,3 +769,7 @@ duck instance of Bird        //true
 
 Bird.prototype.isPrototypeOf(duck)   //duck is the object
 
+//Prototype Chain
+//All javascript objects have prototype
+//Object's prototype is itself an object and can have its own prototype.
+
