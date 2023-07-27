@@ -732,3 +732,6 @@ function joinBird(candidate) {
 }
 
 //since the constructor property can be overwritten it is generally better to use the instanceof method to check the type of an object
+
+//Change the prototype to a new object
+//A more efficient way is to get the prototype to a new object that already containing properties. Properties are all added at once.
