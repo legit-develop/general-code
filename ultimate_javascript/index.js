@@ -730,3 +730,5 @@ function joinBird(candidate) {
     return false;
   }
 }
+
+//since the constructor property can be overwritten it is generally better to use the instanceof method to check the type of an object
