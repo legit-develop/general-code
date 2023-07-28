@@ -835,3 +835,5 @@ Bird.prototype = Object.create(Animal.prototype);
 //The bird has inherited properties of Animal
 let duck = new Bird ("Donald");
 duck.eat();
+
+//duck inherits all of Animals properties including the eat method
