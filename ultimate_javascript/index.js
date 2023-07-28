@@ -825,3 +825,7 @@ let animal = Object.create(Animal.prototype);
 animal.eat()
 animal instanceof Animal;
 
+//create 2 instance (transfer describe methods)
+let duck = Object.create(Animal.prototype);
+let beagle = Object.create(Animal.prototype);
+
