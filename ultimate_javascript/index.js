@@ -818,3 +818,6 @@ Dog.prototype = {
 
 //Inherit behaviors from a supertype
 //1st create an instance of supertype
+
+let animal = new Animal()    //has disadvantages
+let animal = Object.create(Animal.prototype);
