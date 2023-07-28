@@ -829,3 +829,5 @@ animal instanceof Animal;
 let duck = Object.create(Animal.prototype);
 let beagle = Object.create(Animal.prototype);
 
+//Set the child prototype to an instance of the parent
+Bird.prototype = Object.create(Animal.prototype);
