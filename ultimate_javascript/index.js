@@ -815,3 +815,6 @@ Bird.prototype = {
 Dog.prototype = {
   constructor: Dog
 }
+
+//Inherit behaviors from a supertype
+//1st create an instance of supertype
