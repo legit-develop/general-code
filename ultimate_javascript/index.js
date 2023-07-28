@@ -821,3 +821,7 @@ Dog.prototype = {
 
 let animal = new Animal()    //has disadvantages
 let animal = Object.create(Animal.prototype);
+
+animal.eat()
+animal instanceof Animal;
+
