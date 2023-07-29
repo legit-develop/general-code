@@ -837,3 +837,6 @@ let duck = new Bird ("Donald");
 duck.eat();
 
 //duck inherits all of Animals properties including the eat method
+
+//Reset an inherited constructor property
+//When an object inherit its prototype from another object, it also inherits the supertypes constructor property
