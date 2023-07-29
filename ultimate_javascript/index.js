@@ -860,3 +860,7 @@ Bird.prototype.fly = function() {
   console.log("I'm flying");
 }
 
+//Instances of bird will have both eat() and fly methods
+let duck = new Bird;
+duck.eat()          //'nom nom nom'
+duck.fly()          //I'm flying
