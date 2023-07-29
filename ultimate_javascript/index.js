@@ -851,3 +851,6 @@ duck.constructor
 
 Bird.prototype.constructor = Bird;
 duck.constructor
+
+//Add methods after inheritance
+//A constructor function that inherits its prototype object from a supertype constructor function can still have its own methods in addition to inherited method
