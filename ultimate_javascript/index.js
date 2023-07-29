@@ -855,3 +855,8 @@ duck.constructor
 //Add methods after inheritance
 //A constructor function that inherits its prototype object from a supertype constructor function can still have its own methods in addition to inherited method
 //In addition to what is inherited from Animal, add a behavior that is unique to bird
+
+Bird.prototype.fly = function() {
+  console.log("I'm flying");
+}
+
