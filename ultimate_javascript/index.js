@@ -864,3 +864,6 @@ Bird.prototype.fly = function() {
 let duck = new Bird;
 duck.eat()          //'nom nom nom'
 duck.fly()          //I'm flying
+
+ChildObject.prototype = Object.create(ParentObject.prototype);
+
