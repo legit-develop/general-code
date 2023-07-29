@@ -870,3 +870,6 @@ ChildObject.prototype = Object.create(ParentObject.prototype);
 //Constructor function from start to finish
 function Animal() {}
 Animal.prototype.eat = function() {console.log('nom nom nom')}
+
+function Dog() {}
+Dog.prototype = Object.create(Animal.prototype);
