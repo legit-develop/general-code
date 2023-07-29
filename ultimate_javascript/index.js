@@ -848,3 +848,6 @@ duck.constructor
 
 //But duck and all instances of Bird should show that they were constructed by Bird
 //and not animal. To do so you manually set the constructor property of Bird if Bird Object
+
+Bird.prototype.constructor = Bird;
+duck.constructor
