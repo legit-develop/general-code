@@ -885,3 +885,12 @@ beagle.bark();
 //Override Inherited Methods
 ChildObject.prototype = Object.create(ParentObject.prototype);
 ChildObject.prototype.methodName = function() {};
+
+//We override by adding a method to ChildObject.prototype using the same method name as the one to override
+function Animal() {}
+Animal.prototype.eat = function() {
+  return 'nom nom nom';
+}
+
+function Bird() {}
+Bird.prototype = Object.create(Animal.prototype);
