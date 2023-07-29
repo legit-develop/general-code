@@ -901,3 +901,8 @@ Bird.prototype.eat = function() {
 
 let duck = new Bird();
 
+//Interpretation
+//duck => Is eat() defined here? No
+//Bird => Is eat() defined here? Yes - execute and stop searching
+//Animal => Is eat() define here? Yes but the code stop at bird
+//Object => Javascript stopped search before reacting level
