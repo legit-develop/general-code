@@ -881,3 +881,7 @@ Dog.prototype.bark = function() {
 let beagle = new Dog()
 beagle.eat()
 beagle.bark();
+
+//Override Inherited Methods
+ChildObject.prototype = Object.create(ParentObject.prototype);
+ChildObject.prototype.methodName = function() {};
