@@ -899,3 +899,5 @@ Bird.prototype.eat = function() {
   return 'peck peck peck';
 }
 
+let duck = new Bird();
+
