@@ -894,3 +894,8 @@ Animal.prototype.eat = function() {
 
 function Bird() {}
 Bird.prototype = Object.create(Animal.prototype);
+
+Bird.prototype.eat = function() {
+  return 'peck peck peck';
+}
+
