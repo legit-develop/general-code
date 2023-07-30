@@ -961,15 +961,30 @@ duck.getHatchedEggCount();
 
 function glideMixin(obj){
   obj.glide = function() {
-    console.log('Gliding on the water');
+    //console.log('Gliding on the water');
   }
 }
 
 function flyMixin(obj) {
   obj.fly = function() {
-    console.log('flying, woosh');
+    //console.log('flying, woosh');
   }
 }
 
+let motionModule = (function(){
+  return {
+    glideMixin: function(obj) {
+      obj.glide = functioni() {
+        console.log("Gliding on the water");
+      }
+    }
+    flyMixin: function(obj) {
+      obj.fly = function() {
+        console.log("flying woosh")
+      }
+    }
+  }
+})
 
-
+motionModule.glideMixin(duck)
+duck.glide();
