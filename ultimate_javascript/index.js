@@ -916,3 +916,5 @@ let fluMixin = function(obj) {
     console.log("flying woosh")
   }
 }
+
+//The flyMixin takes an object and gives it to fly method
