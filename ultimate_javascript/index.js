@@ -947,3 +947,8 @@ function Bird() {
 
 let duck = new Bird()
 duck.getHatchedEggCount();
+
+//getHatchedEggCount is a privilledge method it has access to the private variable hatchegg
+//function always has access to the context in which it was created - closure
+
+
