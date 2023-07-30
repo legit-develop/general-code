@@ -957,5 +957,11 @@ duck.getHatchedEggCount();
   console.log('run now')
 })();
 
+//Use IIFE to create a module
 
+function glideMixin(obj){
+  obj.glide = function() {
+    console.log('Gliding on the water');
+  }
+}
 
