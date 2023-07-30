@@ -906,3 +906,7 @@ let duck = new Bird();
 //Bird => Is eat() defined here? Yes - execute and stop searching
 //Animal => Is eat() define here? Yes but the code stop at bird
 //Object => Javascript stopped search before reacting level
+
+//Use a mixin to add common behavior between unrelated objects
+//Inheritance doe not work well for unrelated objects Bird of Airplane
+//Unrelated objects its better to use maxims
