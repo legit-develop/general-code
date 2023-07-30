@@ -918,3 +918,9 @@ let fluMixin = function(obj) {
 }
 
 //The flyMixin takes an object and gives it to fly method
+
+let bird = {
+  name: 'Donald',
+  numLegs: 2
+}
+
