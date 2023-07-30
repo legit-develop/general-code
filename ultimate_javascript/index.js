@@ -924,3 +924,8 @@ let bird = {
   numLegs: 2
 }
 
+let plane = {
+  model: '777',
+  numPassenger: 524
+}
+
