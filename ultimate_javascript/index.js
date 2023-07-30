@@ -944,3 +944,6 @@ function Bird() {
     return hatchedEgg;
   }
 }
+
+let duck = new Bird()
+duck.getHatchedEggCount();
