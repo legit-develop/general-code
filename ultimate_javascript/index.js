@@ -953,3 +953,9 @@ duck.getHatchedEggCount();
 
 //Immediately Invoked Function Expression IIFE
 
+(function(){
+  console.log('run now')
+})();
+
+
+
