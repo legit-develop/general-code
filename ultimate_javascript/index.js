@@ -965,3 +965,11 @@ function glideMixin(obj){
   }
 }
 
+function flyMixin(obj) {
+  obj.fly = function() {
+    console.log('flying, woosh');
+  }
+}
+
+
+
