@@ -910,3 +910,9 @@ let duck = new Bird();
 //Use a mixin to add common behavior between unrelated objects
 //Inheritance doe not work well for unrelated objects Bird of Airplane
 //Unrelated objects its better to use maxims
+
+let fluMixin = function(obj) {
+  obj.fly = function() {
+    console.log("flying woosh")
+  }
+}
