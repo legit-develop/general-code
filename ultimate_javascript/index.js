@@ -937,3 +937,10 @@ plane.fly();
 
 //Use closure to protect properties within an object from being modified externally
 ///The simplest way to make this public property private is by creating a variable within the constructor function
+
+function Bird() {
+  let hatchedEgg = 10;
+  this.getHatchedEggCount = function() {
+    return hatchedEgg;
+  }
+}
