@@ -929,3 +929,9 @@ let plane = {
   numPassenger: 524
 }
 
+flyMixin(bird);
+flyMixin(plane);
+
+bird.fly()
+plane.fly();
+
