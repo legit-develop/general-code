@@ -34,3 +34,9 @@ const getTea = (prepareTea, numOfCup) => {
 //Examples
 
 //Fill in the code for the function increment so it returns the value of the global variable fixedValue by 1. fixedvalue should not change
+
+let fixedValue = 3;
+
+function increment() {
+  return fixedValue + 1;
+}
