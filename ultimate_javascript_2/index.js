@@ -25,3 +25,8 @@ const getTea = (prepareTea, numOfCup) => {
 // Hazard of Using Imperative Code
 // Imperative style in programming is one that gives the computer a set of statement to perform a task
 // functional programming is a form of declarative programming. You tell computer what you want done by calling a method or function, e.g use map instead for loop
+
+// Avoid Mutations and Side effects using functional programming
+// One of the core principles of functional programming is to not change things
+// In FP, changing or altering things is called mutation and the outcome is called a side effect
+// Ideally a function should be a pure function, meaning that it does not cause any side effect
