@@ -30,3 +30,7 @@ const getTea = (prepareTea, numOfCup) => {
 // One of the core principles of functional programming is to not change things
 // In FP, changing or altering things is called mutation and the outcome is called a side effect
 // Ideally a function should be a pure function, meaning that it does not cause any side effect
+
+//Examples
+
+//Fill in the code for the function increment so it returns the value of the global variable fixedValue by 1. fixedvalue should not change
