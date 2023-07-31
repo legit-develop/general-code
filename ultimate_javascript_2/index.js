@@ -9,3 +9,6 @@
 // All Javascript functions are first class function
 // The function that take a function as an argument, or return a function as a return value are called higher order functions
 // When functions are passed into or returned from another function, than those functions which were passed in or returned can be called lambda
+
+const prepareGreenTea = () => "green tea";
+const prepareBlackTea = () => "black tea";
