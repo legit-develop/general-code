@@ -40,3 +40,9 @@ let fixedValue = 3;
 function increment() {
   return fixedValue + 1;
 }
+
+//Pass Arguments to Avoid External dependance in a function
+// Always declare your dependencies explicitly
+// If a function depends on a variable or object being present, then pass that variable or object directly into the functions as an argument.
+// The function is easier to test, you know exactly what input it takes and it want depend on anything else in your program
+// The function would always produce the same output for the same output for the same set of inputs, no matter what part of the code execute it.
