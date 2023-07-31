@@ -21,3 +21,7 @@ const getTea = (prepareTea, numOfCup) => {
   }
   return teaCups;
 };
+
+// Hazard of Using Imperative Code
+// Imperative style in programming is one that gives the computer a set of statement to perform a task
+// functional programming is a form of declarative programming. You tell computer what you want done by calling a method or function, e.g use map instead for loop
