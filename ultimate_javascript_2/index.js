@@ -46,3 +46,9 @@ function increment() {
 // If a function depends on a variable or object being present, then pass that variable or object directly into the functions as an argument.
 // The function is easier to test, you know exactly what input it takes and it want depend on anything else in your program
 // The function would always produce the same output for the same output for the same set of inputs, no matter what part of the code execute it.
+
+let fixedNum = 2;
+
+function incrementer(num) {
+  return num + 1;
+}
