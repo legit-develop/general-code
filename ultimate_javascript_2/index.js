@@ -12,3 +12,12 @@
 
 const prepareGreenTea = () => "green tea";
 const prepareBlackTea = () => "black tea";
+
+const getTea = (prepareTea, numOfCup) => {
+  const teaCups = [];
+  for (let cups = 1; cups < numOfCup; cups) {
+    const teaCup = prepareTea();
+    teaCups.push(teaCup);
+  }
+  return teaCups;
+};
