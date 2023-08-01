@@ -159,3 +159,11 @@ const student = [
 
 const under_30 = student.filter(item => item.age < 30);
 console.log(under_30);
+
+const title_rating = watchList.map(item => {
+  return {
+    title: item.title,
+    rating: item.imdbRating
+  }
+})
+
