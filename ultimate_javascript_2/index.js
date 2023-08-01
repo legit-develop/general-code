@@ -150,3 +150,12 @@ Array.prototype.myMap = function(callback) {
 // current element being processed
 // index of that element
 // Array upon which the filter method was called
+
+const student = [
+  {name: 'John', age: 34},
+  {name: 'Amy', age: 20},
+  {name: 'camper', age: 15}
+]
+
+const under_30 = student.filter(item => item.age < 30);
+console.log(under_30);
