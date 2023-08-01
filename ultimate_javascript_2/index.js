@@ -143,4 +143,10 @@ Array.prototype.myMap = function(callback) {
   return newArray;
 }
 
-
+// Use the filter method to extract data from the array
+// Array.prototype.filter()   ->  filter()
+// filter calls a function on each element of an array and return a new array containing only the element for which that function return a truthy value
+// callback function accept 3 arguments
+// current element being processed
+// index of that element
+// Array upon which the filter method was called
