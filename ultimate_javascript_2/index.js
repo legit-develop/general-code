@@ -180,3 +180,8 @@ Array.prototype.myFilter = function(callback) {
   }
   return newArray;
 }
+
+// Return part of an array using a slice method
+// Take 2 arguments
+// 1. index of where to begin the slice
+// 2. index for where to end the slice (and its non inclusive)
