@@ -62,7 +62,7 @@ function incrementer(num) {
 // Example
 // Write 2 functions to add and remove a book from an array. the booklist array should not change
 
-const bookList = ['Grit', 'Growth mindset'];
+const bookList = ['Grit', 'Growth mindset', 'Acre of Diamonds'];
 
 const add = (arr, bookName) => {
   const newArray = [...arr];
@@ -70,4 +70,15 @@ const add = (arr, bookName) => {
   return newArray;
 }
 
-console.log(add(bookList, 'Seven Habits'))
+
+const remove = (arr, bookName) => {
+  const newArray = [...arr];
+  console.log(newArray);
+  let bookIndex = newArray.indexOf(bookName);
+  for(let el of newArray){
+    if(el == bookName){
+      newArray.splice(bookIndex, 1);
+    }
+  }
+return newArray
+}
