@@ -64,4 +64,10 @@ function incrementer(num) {
 
 const bookList = ['Grit', 'Growth mindset'];
 
+const add = (arr, bookName) => {
+  const newArray = [...arr];
+  newArray.unshift(bookName);
+  return newArray;
+}
 
+console.log(add(bookList, 'Seven Habits'))
