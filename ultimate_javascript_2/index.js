@@ -91,4 +91,12 @@ return newArray
 // 2. Index of that element
 // 3. Array upon which the map method was called
 
+// Example
 
+const users = [
+  {name: 'John', age: 32},
+  {name: 'Bety', age: 40},
+  {name: 'Simon', age: 50}
+]
+
+let user = users.map(el => el.name);
