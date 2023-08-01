@@ -86,3 +86,9 @@ return newArray
 // Use the map method to extract data from an array
 // The map method iterates over each item in an array and returns a new array containing the result of the callback function on each element. It does not mutate the original string
 
+// The callback has 3 arguments
+// 1. Current element being processed
+// 2. Index of that element
+// 3. Array upon which the map method was called
+
+
