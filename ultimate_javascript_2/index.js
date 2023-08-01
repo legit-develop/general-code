@@ -62,3 +62,6 @@ function incrementer(num) {
 // Example
 // Write 2 functions to add and remove a book from an array. the booklist array should not change
 
+const bookList = ['Grit', 'Growth mindset'];
+
+
