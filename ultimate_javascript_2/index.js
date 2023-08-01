@@ -167,3 +167,16 @@ const title_rating = watchList.map(item => {
   }
 })
 
+const filterList = title_rating.filter(item => item.rating >8);
+
+//Implement the filter method on a Prototype
+
+Array.prototype.myFilter = function(callback) {
+  const newArray = [];
+  for(let i = 0; i < this.length; i++) {
+    if(callback(this[i], i, this)){
+      newArray.push(this[i])
+    }
+  }
+  return newArray;
+}
