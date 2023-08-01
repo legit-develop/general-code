@@ -59,3 +59,6 @@ function incrementer(num) {
 // arrVar create a reference to the existing variable and not a copy, change newArr will change  value in arrVar
 // Declare function parameters
 
+// Example
+// Write 2 functions to add and remove a book from an array. the booklist array should not change
+
