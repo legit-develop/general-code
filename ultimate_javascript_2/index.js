@@ -100,3 +100,26 @@ const users = [
 ]
 
 let user = users.map(el => el.name);
+
+// Example 2
+const watchList = [
+  {
+    title: 'Inception',
+    year: 2010
+  },
+  {
+    title: 'Interstellar',
+    year: 2015
+  }, {
+    title: "The Dark Knight",
+    year: 2008
+  }
+]
+
+const ratings = watchList.map(list => {
+  return {
+    name: list.title,
+    age: list.year
+  }
+})
+
