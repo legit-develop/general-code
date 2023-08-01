@@ -123,3 +123,17 @@ const ratings = watchList.map(list => {
   }
 })
 
+// Implement Map on a prototype
+// map() is Array.prototype.map()
+// map() is a pure function its output depends solely on its input and it takes another function
+
+Array.prototype.myMap = function(callback) {
+  const newArray = [];
+  for(let i = 0; i < this.length; i++){
+    newArray.push(this[i])
+  }
+}
+
+
+
+
