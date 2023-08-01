@@ -82,3 +82,7 @@ const remove = (arr, bookName) => {
   }
 return newArray
 }
+
+// Use the map method to extract data from an array
+// The map method iterates over each item in an array and returns a new array containing the result of the callback function on each element. It does not mutate the original string
+
