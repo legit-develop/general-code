@@ -52,3 +52,10 @@ let fixedNum = 2;
 function incrementer(num) {
   return num + 1;
 }
+
+// Refactor global variable out of functions
+// Don't alter a variable or object - create bew variable and objects and return them if need be from a function
+//    const newArr = arrVar
+// arrVar create a reference to the existing variable and not a copy, change newArr will change  value in arrVar
+// Declare function parameters
+
