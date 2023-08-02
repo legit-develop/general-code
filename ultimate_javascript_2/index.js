@@ -259,3 +259,10 @@ function getRating(watchList) {
 
 // Use higher-order function map, filter reduce to solve complex problems
 // square list function should return a new array containing the square of only the positive integers (decimal numbers are not integers) when array of real numbers passed into it
+
+const squareList = (arr) => {
+  let positive_num = arr.filter((item) => item > 0);
+  let whole_num = positive_num.filter((item) => item % parseInt(item) === 0);
+  let square_num = whole_num.map((item) => item * item);
+  return square_num;
+};
