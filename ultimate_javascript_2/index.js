@@ -243,3 +243,9 @@ const peopleObj = abantu.reduce((obj, user) => {
 
 // Example 3
 // Use method of your choice to get the average rating for movies produced by director christor
+
+function getRating(watchList) {
+  let director_chris = watchList.filter(
+    (item) => item.Director === "Christopher Nola"
+  );
+}
