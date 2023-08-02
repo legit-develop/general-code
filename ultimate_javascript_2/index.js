@@ -209,3 +209,7 @@ sliceArray([1, 2, 3, 4, 5], 1, 3);
 // Combine two array using the concat method
 // concat combine both array and string
 [1, 2, 3].concat([4, 5, 6]);
+
+// Functional programming is all about creating and using non-mutating functions
+// push adds items to the end of the same array it is called [mutates array]
+// concat does not mutate the array
