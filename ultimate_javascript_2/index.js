@@ -256,3 +256,6 @@ function getRating(watchList) {
 
   return ratingAverage;
 }
+
+// Use higher-order function map, filter reduce to solve complex problems
+// square list function should return a new array containing the square of only the positive integers (decimal numbers are not integers) when array of real numbers passed into it
