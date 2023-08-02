@@ -158,7 +158,6 @@ const student = [
 ];
 
 const under_30 = student.filter((item) => item.age < 30);
-console.log(under_30);
 
 const title_rating = watchList.map((item) => {
   return {
@@ -188,3 +187,6 @@ Array.prototype.myFilter = function (callback) {
 
 // If no arguments provider slice start of the beginning till the end. Copy entire array
 // Does not mutate the original array, but returns a new one
+
+const arr = ["cat", "dog", "tiger", "zebra"];
+const newArray = arr.slice(1, 3);
