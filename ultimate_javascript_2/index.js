@@ -234,3 +234,9 @@ const abantu = [
 ];
 
 const sumOfAges = abantu.reduce((sum, user) => sum + user.age, 0);
+
+//Example
+const peopleObj = abantu.reduce((obj, user) => {
+  obj[user.name] = user.age;
+  return obj;
+});
