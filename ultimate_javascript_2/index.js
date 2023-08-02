@@ -225,3 +225,12 @@ sliceArray([1, 2, 3, 4, 5], 1, 3);
 // Array upon which reduce is called
 // In addition to the callback function, reduce take has an additional parameter which takes an initial value for the accumulator
 // If the second parameter is not used, then the first iteration is skipped and the second iteration get passed the first element of the array as the accumulator
+
+//Example
+const abantu = [
+  { name: "John", age: 34 },
+  { name: "Amy", age: 20 },
+  { name: "camper", age: 10 },
+];
+
+const sumOfAges = abantu.reduce((sum, user) => sum + user.age, 0);
