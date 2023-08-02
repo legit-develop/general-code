@@ -269,3 +269,11 @@ const squareList = (arr) => {
 
 // Sort an Array alphabetically using the sort method
 // The sort method sorts the elements of an array according to the call callback function
+
+function ascendingOrder(arr) {
+  return arr.sort(function (a, b) {
+    return a - b;
+  });
+}
+
+ascendingOrder([1, 5, 2, 7, 2, 1]);
