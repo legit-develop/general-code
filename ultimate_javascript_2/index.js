@@ -213,3 +213,15 @@ sliceArray([1, 2, 3, 4, 5], 1, 3);
 // Functional programming is all about creating and using non-mutating functions
 // push adds items to the end of the same array it is called [mutates array]
 // concat does not mutate the array
+
+// Use reduce method to analyze data
+// Array.prototype.reduce()  => reduce
+// Most general of all array operation can solve almost any array processing problem
+// It iterate over each item in an array and return a single value [string, number, array, object]
+// Callback function accepts 4 arguments
+// Accumulator => assigned the return value of the callback function from previous iteration
+// current element being processed
+// index of that element
+// Array upon which reduce is called
+// In addition to the callback function, reduce take has an additional parameter which takes an initial value for the accumulator
+// If the second parameter is not used, then the first iteration is skipped and the second iteration get passed the first element of the array as the accumulator
