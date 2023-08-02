@@ -240,3 +240,6 @@ const peopleObj = abantu.reduce((obj, user) => {
   obj[user.name] = user.age;
   return obj;
 });
+
+// Example 3
+// Use method of your choice to get the average rating for movies produced by director christor
