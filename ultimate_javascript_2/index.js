@@ -205,3 +205,7 @@ sliceArray([1, 2, 3, 4, 5], 1, 3);
 // number of items to remove
 // If last item not provided will remove till the end
 // If mutate the original array
+
+// Combine two array using the concat method
+// concat combine both array and string
+[1, 2, 3].concat([4, 5, 6]);
