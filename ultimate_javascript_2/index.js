@@ -197,3 +197,11 @@ function sliceArray(arr, beginSlice, endSlice) {
 }
 
 sliceArray([1, 2, 3, 4, 5], 1, 3);
+
+// Remove elements from  an Array using slice instead of splice
+// remove items and keep the rest of the array
+// Takes 2 arguments
+// index of where to start removing items
+// number of items to remove
+// If last item not provided will remove till the end
+// If mutate the original array
