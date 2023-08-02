@@ -248,4 +248,11 @@ function getRating(watchList) {
   let director_chris = watchList.filter(
     (item) => item.Director === "Christopher Nola"
   );
+  let ratings = director_chris.reduce((acc, element) => {
+    return acc + Number(element.imdbTating);
+  }, 0);
+
+  let ratingAverage = ratings / director_chris.length;
+
+  return ratingAverage;
 }
