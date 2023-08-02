@@ -190,3 +190,10 @@ Array.prototype.myFilter = function (callback) {
 
 const arr = ["cat", "dog", "tiger", "zebra"];
 const newArray = arr.slice(1, 3);
+
+//Example
+function sliceArray(arr, beginSlice, endSlice) {
+  return arr.slice(beginSlice, endSlice);
+}
+
+sliceArray([1, 2, 3, 4, 5], 1, 3);
