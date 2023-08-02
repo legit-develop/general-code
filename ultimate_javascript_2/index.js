@@ -266,3 +266,6 @@ const squareList = (arr) => {
   let square_num = whole_num.map((item) => item * item);
   return square_num;
 };
+
+// Sort an Array alphabetically using the sort method
+// The sort method sorts the elements of an array according to the call callback function
