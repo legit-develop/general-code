@@ -62,26 +62,25 @@ function incrementer(num) {
 // Example
 // Write 2 functions to add and remove a book from an array. the booklist array should not change
 
-const bookList = ['Grit', 'Growth mindset', 'Acre of Diamonds'];
+const bookList = ["Grit", "Growth mindset", "Acre of Diamonds"];
 
 const add = (arr, bookName) => {
   const newArray = [...arr];
   newArray.unshift(bookName);
   return newArray;
-}
-
+};
 
 const remove = (arr, bookName) => {
   const newArray = [...arr];
   console.log(newArray);
   let bookIndex = newArray.indexOf(bookName);
-  for(let el of newArray){
-    if(el == bookName){
+  for (let el of newArray) {
+    if (el == bookName) {
       newArray.splice(bookIndex, 1);
     }
   }
-return newArray
-}
+  return newArray;
+};
 
 // Use the map method to extract data from an array
 // The map method iterates over each item in an array and returns a new array containing the result of the callback function on each element. It does not mutate the original string
@@ -94,54 +93,55 @@ return newArray
 // Example
 
 const users = [
-  {name: 'John', age: 32},
-  {name: 'Bety', age: 40},
-  {name: 'Simon', age: 50}
-]
+  { name: "John", age: 32 },
+  { name: "Bety", age: 40 },
+  { name: "Simon", age: 50 },
+];
 
-let user = users.map(el => el.name);
+let user = users.map((el) => el.name);
 
 // Example 2
 const watchList = [
   {
-    title: 'Inception',
-    year: 2010
+    title: "Inception",
+    year: 2010,
   },
   {
-    title: 'Interstellar',
-    year: 2015
-  }, {
+    title: "Interstellar",
+    year: 2015,
+  },
+  {
     title: "The Dark Knight",
-    year: 2008
-  }
-]
+    year: 2008,
+  },
+];
 
-const ratings = watchList.map(list => {
+const ratings = watchList.map((list) => {
   return {
     name: list.title,
-    age: list.year
-  }
-})
+    age: list.year,
+  };
+});
 
 // Implement Map on a prototype
 // map() is Array.prototype.map()
 // map() is a pure function its output depends solely on its input and it takes another function
 
-Array.prototype.myMap = function(callback) {
+Array.prototype.myMap = function (callback) {
   const newArray = [];
-  for(let i = 0; i < this.length; i++){
-    newArray.push(this[i])
+  for (let i = 0; i < this.length; i++) {
+    newArray.push(this[i]);
   }
-}
+};
 
 //Method 2
-Array.prototype.myMap = function(callback) {
+Array.prototype.myMap = function (callback) {
   const newArray = [];
-  for(let i = 0; i < this.length; i++){
+  for (let i = 0; i < this.length; i++) {
     newArray.push(callback(this[i]), i, this);
   }
   return newArray;
-}
+};
 
 // Use the filter method to extract data from the array
 // Array.prototype.filter()   ->  filter()
@@ -152,36 +152,39 @@ Array.prototype.myMap = function(callback) {
 // Array upon which the filter method was called
 
 const student = [
-  {name: 'John', age: 34},
-  {name: 'Amy', age: 20},
-  {name: 'camper', age: 15}
-]
+  { name: "John", age: 34 },
+  { name: "Amy", age: 20 },
+  { name: "camper", age: 15 },
+];
 
-const under_30 = student.filter(item => item.age < 30);
+const under_30 = student.filter((item) => item.age < 30);
 console.log(under_30);
 
-const title_rating = watchList.map(item => {
+const title_rating = watchList.map((item) => {
   return {
     title: item.title,
-    rating: item.imdbRating
-  }
-})
+    rating: item.imdbRating,
+  };
+});
 
-const filterList = title_rating.filter(item => item.rating >8);
+const filterList = title_rating.filter((item) => item.rating > 8);
 
 //Implement the filter method on a Prototype
 
-Array.prototype.myFilter = function(callback) {
+Array.prototype.myFilter = function (callback) {
   const newArray = [];
-  for(let i = 0; i < this.length; i++) {
-    if(callback(this[i], i, this)){
-      newArray.push(this[i])
+  for (let i = 0; i < this.length; i++) {
+    if (callback(this[i], i, this)) {
+      newArray.push(this[i]);
     }
   }
   return newArray;
-}
+};
 
 // Return part of an array using a slice method
 // Take 2 arguments
 // 1. index of where to begin the slice
 // 2. index for where to end the slice (and its non inclusive)
+
+// If no arguments provider slice start of the beginning till the end. Copy entire array
+// Does not mutate the original array, but returns a new one
