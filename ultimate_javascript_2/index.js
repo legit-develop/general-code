@@ -302,3 +302,7 @@ function alphabeticalOrder(arr) {
 }
 
 alphabeticalOrder(["a", "d", "c", "a", "z"]);
+
+// Return a sorted array without changing the original array
+// Side effect of the sort method is that it changes the order of the elements in the original array.
+// One way to avoid this is to concatenate on empty array to the one being sorted (slice and concat return a new array) then run the sort method
