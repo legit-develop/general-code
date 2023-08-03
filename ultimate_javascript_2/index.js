@@ -291,3 +291,7 @@ reverseAlpha(["l", "h", "z", "b", "s", "z", "s", "i", "h", "b"]);
 // If compare function (a,b) returns a value less than 0 for the two elements a and b, then a will come before b
 // If compare function (a,b) returns a value greater than 0 for two elements a an b the b will come before a
 // If compare function (a,b) returns a value equals to 0 for the 2 element a and b, a and b will remain
+
+//Example
+
+// Use sort method in the alphabetical order function to sort the elements of arr in alphabet order. Should return a sorted array
