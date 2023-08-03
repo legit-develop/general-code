@@ -314,3 +314,9 @@ function nonMutatingSort(arr) {
   newArray.sort((a, b) => a - b);
   return newArray;
 }
+
+nonMutatingSort(globalArray);
+
+// Split a string into an array using the split method
+// split(), split the string into an arm of string
+// delimiter determine how the string will be split
