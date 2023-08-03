@@ -328,3 +328,9 @@ const bySpace = str.split("");
 //By Digit
 const digitStr = "How2are7you4245today";
 const byDigit = digitStr.split(/\d+/g);
+
+//split a string by space - . ,
+
+function splitify(str) {
+  return str.split(/[\" ",-.]/g);
+}
