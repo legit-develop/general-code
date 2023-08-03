@@ -320,3 +320,7 @@ nonMutatingSort(globalArray);
 // Split a string into an array using the split method
 // split(), split the string into an arm of string
 // delimiter determine how the string will be split
+
+//Example
+const str = "Hello World!";
+const bySpace = str.split("");
