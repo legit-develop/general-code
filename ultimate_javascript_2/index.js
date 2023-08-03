@@ -346,3 +346,11 @@ function sentensify(str) {
 
 // Apply functional programming to convert string to URL slugs
 // Many content management site (cms) have the title of posts added to part of the URL for simple bookmarking purpose (.../stop-using-reduced)
+
+// Example
+// Fill in the urlSlug so it converts a string title and returns the hyphenated version for the URL
+// Fullfil the following requirements
+// The input is a string with spaces and title cased words
+// The output is a string with the spaces between words replaced by a hyphen
+// The out put should all be lower cased letters.
+// The output should not have any spaces
