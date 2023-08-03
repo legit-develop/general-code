@@ -354,3 +354,7 @@ function sentensify(str) {
 // The output is a string with the spaces between words replaced by a hyphen
 // The out put should all be lower cased letters.
 // The output should not have any spaces
+
+function urlSlug(title) {
+  return title.toLowerCase().trim().split(/\s+/g).join(".");
+}
