@@ -343,3 +343,6 @@ function sentensify(str) {
   let newStr = str.split(/[\,-.]/g);
   return newStr.join(" ");
 }
+
+// Apply functional programming to convert string to URL slugs
+// Many content management site (cms) have the title of posts added to part of the URL for simple bookmarking purpose (.../stop-using-reduced)
