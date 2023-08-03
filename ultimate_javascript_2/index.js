@@ -324,3 +324,7 @@ nonMutatingSort(globalArray);
 //Example
 const str = "Hello World!";
 const bySpace = str.split("");
+
+//By Digit
+const digitStr = "How2are7you4245today";
+const byDigit = digitStr.split(/\d+/g);
