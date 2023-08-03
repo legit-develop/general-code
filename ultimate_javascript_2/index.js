@@ -338,3 +338,8 @@ function splitify(str) {
 // combine an array into a string using join method
 // delimiter determines how the string is join
 // original string separated by , - .
+
+function sentensify(str) {
+  let newStr = str.split(/[\,-.]/g);
+  return newStr.join(" ");
+}
