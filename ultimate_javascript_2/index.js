@@ -306,3 +306,11 @@ alphabeticalOrder(["a", "d", "c", "a", "z"]);
 // Return a sorted array without changing the original array
 // Side effect of the sort method is that it changes the order of the elements in the original array.
 // One way to avoid this is to concatenate on empty array to the one being sorted (slice and concat return a new array) then run the sort method
+
+const globalArray = [5, 6, 3, 2, 9];
+
+function nonMutatingSort(arr) {
+  let newArray = [...arr];
+  newArray.sort((a, b) => a - b);
+  return newArray;
+}
