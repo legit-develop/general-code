@@ -334,3 +334,7 @@ const byDigit = digitStr.split(/\d+/g);
 function splitify(str) {
   return str.split(/[\" ",-.]/g);
 }
+
+// combine an array into a string using join method
+// delimiter determines how the string is join
+// original string separated by , - .
