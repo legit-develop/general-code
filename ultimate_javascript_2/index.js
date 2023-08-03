@@ -295,3 +295,10 @@ reverseAlpha(["l", "h", "z", "b", "s", "z", "s", "i", "h", "b"]);
 //Example
 
 // Use sort method in the alphabetical order function to sort the elements of arr in alphabet order. Should return a sorted array
+
+function alphabeticalOrder(arr) {
+  arr.sort();
+  return arr;
+}
+
+alphabeticalOrder(["a", "d", "c", "a", "z"]);
