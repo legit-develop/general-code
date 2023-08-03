@@ -277,3 +277,12 @@ function ascendingOrder(arr) {
 }
 
 ascendingOrder([1, 5, 2, 7, 2, 1]);
+
+// reverse order
+function reverseAlpha(arr) {
+  return arr.sort((a, b) => {
+    return a === b ? 0 : a < b ? 1 : -1;
+  });
+}
+
+reverseAlpha(["l", "h", "z", "b", "s", "z", "s", "i", "h", "b"]);
