@@ -286,3 +286,8 @@ function reverseAlpha(arr) {
 }
 
 reverseAlpha(["l", "h", "z", "b", "s", "z", "s", "i", "h", "b"]);
+
+// Javascript default sorting method is by string unicode point value, which may return unexpected result. Therefore, it is encourage to provide a callback to specify how to sort the array items
+// If compare function (a,b) returns a value less than 0 for the two elements a and b, then a will come before b
+// If compare function (a,b) returns a value greater than 0 for two elements a an b the b will come before a
+// If compare function (a,b) returns a value equals to 0 for the 2 element a and b, a and b will remain
