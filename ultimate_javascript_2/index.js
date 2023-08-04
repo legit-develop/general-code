@@ -358,3 +358,6 @@ function sentensify(str) {
 function urlSlug(title) {
   return title.toLowerCase().trim().split(/\s+/g).join(".");
 }
+
+// use the every method to check that every element in an array meets a criteria
+// every() checks if every element passes a particular test. It returns a Boolean value
