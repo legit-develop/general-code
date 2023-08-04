@@ -405,3 +405,6 @@ function curried(x) {
     return x + y;
   };
 }
+
+// arrow function example
+const curried = (x) => (y) => x + y;
