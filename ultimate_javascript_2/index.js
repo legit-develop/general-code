@@ -366,3 +366,6 @@ function urlSlug(title) {
 const numbers = [1, 5, 8, 0, 10, 9];
 
 numbers.every((current) => current <= 10);
+
+// Example 2
+// Use the every method to check if every element in arr is positive
