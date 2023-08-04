@@ -412,3 +412,6 @@ const curried = (x) => (y) => x + y;
 // This is useful in your program if you cannot supply all arguments to a function at one time.
 // You can save each function call into a variable, which will hold the returned function reference that takes the next argument when it is available
 const funcForY = curried(1);
+
+// Similar partial application can be described as applying a few arguments to a function at a time and retrieving another function.
+// that is applied to more arguments.
