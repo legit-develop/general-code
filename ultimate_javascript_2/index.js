@@ -378,5 +378,15 @@ function positiveNum(arr) {
 positiveNum([1, 2, 3, 4, 5]);
 
 // use the some method to check that any elements in an Array meet a criteria
-const critNum = [10, 50, 8, 220, 110];
+const critNum = [-10, -50, -8, -220, -110];
 critNum.some((el) => el < 10);
+
+// Example 1
+// Check if the array has some positive values
+
+function somePositive(arr) {
+  let result = arr.some((el) => el > 0);
+  return result;
+}
+
+somePositive(critNum);
