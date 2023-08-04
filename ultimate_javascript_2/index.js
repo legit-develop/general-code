@@ -369,3 +369,10 @@ numbers.every((current) => current <= 10);
 
 // Example 2
 // Use the every method to check if every element in arr is positive
+
+function positiveNum(arr) {
+  let result = arr.every((el) => el > 0);
+  return result;
+}
+
+positiveNum([1, 2, 3, 4, 5]);
