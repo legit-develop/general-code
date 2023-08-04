@@ -415,3 +415,7 @@ const funcForY = curried(1);
 
 // Similar partial application can be described as applying a few arguments to a function at a time and retrieving another function.
 // that is applied to more arguments.
+
+function impartial(x, y, z) {
+  return x + y + z;
+}
