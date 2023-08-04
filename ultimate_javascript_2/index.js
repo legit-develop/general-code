@@ -408,3 +408,7 @@ function curried(x) {
 
 // arrow function example
 const curried = (x) => (y) => x + y;
+
+// This is useful in your program if you cannot supply all arguments to a function at one time.
+// You can save each function call into a variable, which will hold the returned function reference that takes the next argument when it is available
+const funcForY = curried(1);
