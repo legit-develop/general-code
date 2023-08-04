@@ -361,3 +361,8 @@ function urlSlug(title) {
 
 // use the every method to check that every element in an array meets a criteria
 // every() checks if every element passes a particular test. It returns a Boolean value
+
+// Example
+const numbers = [1, 5, 8, 0, 10, 9];
+
+numbers.every((current) => current <= 10);
