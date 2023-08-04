@@ -419,3 +419,6 @@ const funcForY = curried(1);
 function impartial(x, y, z) {
   return x + y + z;
 }
+
+const partialFn = impartial.bind(this, 1, 2);
+partialFn(10);
