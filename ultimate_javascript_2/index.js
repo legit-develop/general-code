@@ -390,3 +390,7 @@ function somePositive(arr) {
 }
 
 somePositive(critNum);
+
+// Introduction to currying and partial application
+// arity of a function is the number of arguments it requires
+// currying a function means to convert a function of N arity into N functions of arity 1
