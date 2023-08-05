@@ -486,7 +486,9 @@ diffArray([1, 2, 3, 8], [2, 4, 5, 8]);
 // Remove all elements from the initial array that are of the same value as these arguments
 
 function destroyer(arr) {
+  let argArr = [];
+  let finalArray = [];
   return arr;
 }
 
-console.log(destroyer([1, 2, 3, 4]));
+console.log(destroyer([1, 2, 3, 4], 2, 5));
