@@ -488,6 +488,9 @@ diffArray([1, 2, 3, 8], [2, 4, 5, 8]);
 function destroyer(arr) {
   let argArr = [];
   let finalArray = [];
+  for (let i = 0; i < arguments.length; i++) {
+    argArr.push(arguments[i]);
+  }
   return arr;
 }
 
