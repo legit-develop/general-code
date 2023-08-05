@@ -432,6 +432,9 @@ function sumAll(arr) {
   let firstNum = arr[0];
   let secondNum = arr[1];
   let newArray = [];
+  if (firstNum > secondNum) {
+    [firstNum, secondNum] = [secondNum, firstNum];
+  }
   let sum = 0;
   for (let i = firstNum; i <= secondNum; i++) {
     newArray.push(i);
@@ -443,4 +446,4 @@ function sumAll(arr) {
   return sum;
 }
 
-console.log(sumAll([1, 4]));
+console.log(sumAll([5, 2]));
