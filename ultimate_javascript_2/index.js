@@ -439,11 +439,18 @@ function sumAll(arr) {
   for (let i = firstNum; i <= secondNum; i++) {
     newArray.push(i);
   }
-  console.log(newArray);
   for (let j = 0; j < newArray.length; j++) {
     sum += newArray[j];
   }
   return sum;
 }
 
-console.log(sumAll([5, 2]));
+sumAll([5, 2]);
+
+//alternative method
+function sumAllNum(arr) {
+  arr.sort((a, b) => a - b);
+  return arr;
+}
+
+console.log(sumAllNum([11, 4]));
