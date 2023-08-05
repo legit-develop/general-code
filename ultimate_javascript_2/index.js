@@ -479,4 +479,8 @@ function diffArray(arr1, arr2) {
   return newArray;
 }
 
-console.log(diffArray([1, 2, 3, 8], [2, 4, 5, 8]));
+diffArray([1, 2, 3, 8], [2, 4, 5, 8]);
+
+// Seek and destroy
+// You will be provided with an initial array followed by one or two more argument.
+// Remove all elements from the initial array that are of the same value as these arguments
