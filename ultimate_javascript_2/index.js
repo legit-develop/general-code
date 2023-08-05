@@ -422,3 +422,8 @@ function impartial(x, y, z) {
 
 const partialFn = impartial.bind(this, 1, 2);
 partialFn(10);
+
+// Intermediate Algorithm Scripting
+
+// Sum all numbers in a range
+// a 2 number array will be passed. Return the sum of those 2 number including the one between them
