@@ -431,6 +431,11 @@ partialFn(10);
 function sumAll(arr) {
   let firstNum = arr[0];
   let secondNum = arr[1];
+  let newArray = [];
+  for (let i = firstNum; i <= secondNum; i++) {
+    newArray.push(i);
+  }
+  return newArray;
 }
 
 console.log(sumAll([1, 4]));
