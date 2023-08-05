@@ -457,4 +457,9 @@ function sumAllNum(arr) {
   return sum;
 }
 
-console.log(sumAllNum([11, 4]));
+sumAllNum([11, 4]);
+
+// Diff two arrays
+
+// Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both.
+// Return the symmetric difference of the two arrays
