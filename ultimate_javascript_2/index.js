@@ -466,4 +466,12 @@ sumAllNum([11, 4]);
 
 function diffArray(arr1, arr2) {
   let newArray = [];
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr2.indexOf(arr1[i]) === -1) {
+      newArray.push(arr1[i]);
+    }
+  }
+  return newArray;
 }
+
+console.log(diffArray([1, 2, 3, 8], [2, 4, 5, 8]));
