@@ -491,6 +491,7 @@ function destroyer(arr) {
   for (let i = 0; i < arguments.length; i++) {
     argArr.push(arguments[i]);
   }
+  argArr.splice(0, 1);
   return arr;
 }
 
