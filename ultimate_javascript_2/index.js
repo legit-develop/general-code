@@ -432,10 +432,15 @@ function sumAll(arr) {
   let firstNum = arr[0];
   let secondNum = arr[1];
   let newArray = [];
+  let sum = 0;
   for (let i = firstNum; i <= secondNum; i++) {
     newArray.push(i);
   }
-  return newArray;
+  console.log(newArray);
+  for (let j = 0; j < newArray.length; j++) {
+    sum += newArray[j];
+  }
+  return sum;
 }
 
 console.log(sumAll([1, 4]));
