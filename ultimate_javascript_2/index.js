@@ -471,6 +471,11 @@ function diffArray(arr1, arr2) {
       newArray.push(arr1[i]);
     }
   }
+  for (let j = 0; j < arr2.length; j++) {
+    if (arr1.indexOf(arr2[j]) === -1) {
+      newArray.push(arr2[j]);
+    }
+  }
   return newArray;
 }
 
