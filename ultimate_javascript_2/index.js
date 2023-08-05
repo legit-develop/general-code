@@ -450,7 +450,11 @@ sumAll([5, 2]);
 //alternative method
 function sumAllNum(arr) {
   arr.sort((a, b) => a - b);
-  return arr;
+  let sum = 0;
+  for (let i = arr[0]; i <= arr[1]; i++) {
+    sum += i;
+  }
+  return sum;
 }
 
 console.log(sumAllNum([11, 4]));
