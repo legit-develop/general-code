@@ -427,3 +427,10 @@ partialFn(10);
 
 // Sum all numbers in a range
 // a 2 number array will be passed. Return the sum of those 2 number including the one between them
+
+function sumAll(arr) {
+  let firstNum = arr[0];
+  let secondNum = arr[1];
+}
+
+console.log(sumAll([1, 4]));
