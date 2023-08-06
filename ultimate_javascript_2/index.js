@@ -526,4 +526,9 @@ console.log(destroyerMain([2, 7, 5], 2, 5));
 function whatIsInAName(collection, source) {
   let arr = [];
   let props = Object.keys(source);
+  arr = collection.filter(obj => {
+    props.every(prop => obj.hasOwnProperty(prop) && obj[prop] === source[prop]){
+      
+    }
+  })
 }
