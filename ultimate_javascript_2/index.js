@@ -530,7 +530,8 @@ destroyerMain([2, 7, 5], 2, 5);
 function spinalCase(str) {
   let lowCaseStr = str.toLowerCase();
   let splitStr = lowCaseStr.split("");
-  return splitStr;
+  let joinDash = splitStr.join("-");
+  return joinDash;
 }
 
-console.log(spinalCase("SIfiso"));
+console.log(spinalCase("DHLAMINI"));
