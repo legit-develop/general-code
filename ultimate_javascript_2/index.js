@@ -506,7 +506,9 @@ destroyer([1, 2, 3, 4], 2, 5);
 
 function destroyerMain(arr) {
   let args = [...arguments];
-  return args;
+  let targets = args.splice(1);
+  let newArr = [];
+  return targets;
 }
 
 console.log(destroyerMain([2, 3, 4, 5], 2, 5));
