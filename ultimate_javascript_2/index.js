@@ -535,3 +535,8 @@ function spinalCase(str) {
 }
 
 console.log(spinalCase("DHLAMINI"));
+
+// Spinal Case alternative
+function alterCaseSpinal(str) {
+  return str;
+}
