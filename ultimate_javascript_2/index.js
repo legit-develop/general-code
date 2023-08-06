@@ -534,11 +534,14 @@ function spinalCase(str) {
   return joinDash;
 }
 
-console.log(spinalCase("DHLAMINI"));
+spinalCase("DHLAMINI");
 
 // Spinal Case alternative
 function alterCaseSpinal(str) {
   let regexStr = /[\s_]+/;
+  let replaceStr = str.replace(/([a-z])([A-Z])/g, "$1_$2");
 
-  return str;
+  return replaceStr.split(regexStr).join("-").toLowerCase();
 }
+
+console.log(alterCaseSpinal("SIFISO Dhlamini Bheki"));
