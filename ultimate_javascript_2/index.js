@@ -516,23 +516,21 @@ function destroyerMain(arr) {
   return newArr;
 }
 
-console.log(destroyerMain([2, 7, 5], 2, 5));
+destroyerMain([2, 7, 5], 2, 5);
 
 // Make a function that looks through an array of object (first argument) and returns
 // an array of all objects that have matching name, value pairs (second arguments). each
 // name and value pair of the source object has to be present in the object from
 // collection if it is to be included in the refund array
 
-function whatIsInAName(collection, source) {
-  let arr = [];
-  let props = Object.keys(source);
-  arr = collection.filter(obj => {
-    props.every(prop => obj.hasOwnProperty(prop) && obj[prop] === source[prop]){
-
-    }
-  })
-}
-
 // Spinal Tap Case
 // Convert a string into a spinal case
 // Spinal cae is all lowercase words joined by dashes
+
+function spinalCase(str) {
+  let lowCaseStr = str.toLowerCase();
+  let splitStr = lowCaseStr.split("");
+  return splitStr;
+}
+
+console.log(spinalCase("SIfiso"));
