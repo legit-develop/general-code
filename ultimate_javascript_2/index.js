@@ -553,7 +553,11 @@ alterCaseSpinal("SIFISO Dhlamini Bheki");
 // If a word begin with a vowel, just add way at the end
 
 function translatePigLatin(str) {
-  return str;
+  let myStr = str.toLowerCase();
+  let vowel = /[aeiou]/;
+  let vowelResult = myStr.match(vowel);
+  let firstIndex = myStr.indexOf(vowelResult);
+  return firstIndex;
 }
 
 console.log(translatePigLatin("movement"));
