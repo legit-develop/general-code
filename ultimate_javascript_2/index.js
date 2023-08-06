@@ -538,5 +538,7 @@ console.log(spinalCase("DHLAMINI"));
 
 // Spinal Case alternative
 function alterCaseSpinal(str) {
+  let regexStr = /[\s_]+/;
+
   return str;
 }
