@@ -492,7 +492,7 @@ function destroyer(arr) {
     argArr.push(arguments[i]);
   }
   argArr.splice(0, 1);
-  for (let i = 0; (i = arr.length); i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (argArr.indexOf(arr[i]) === -1) {
       finalArray.push(arr[i]);
     }
@@ -500,4 +500,13 @@ function destroyer(arr) {
   return arr;
 }
 
-console.log(destroyer([1, 2, 3, 4], 2, 5));
+destroyer([1, 2, 3, 4], 2, 5);
+
+//Alternative seek and destroyer
+
+function destroyerMain(arr) {
+  let args = [...arguments];
+  return args;
+}
+
+console.log(destroyerMain([2, 3, 4, 5], 2, 5));
