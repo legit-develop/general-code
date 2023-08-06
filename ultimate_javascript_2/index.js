@@ -544,4 +544,10 @@ function alterCaseSpinal(str) {
   return replaceStr.split(regexStr).join("-").toLowerCase();
 }
 
-console.log(alterCaseSpinal("SIFISO Dhlamini Bheki"));
+alterCaseSpinal("SIFISO Dhlamini Bheki");
+
+// Pig latin
+// Pig latin is a way of altering english words
+// If a word begin with a consonant, take the first consonant or consonant cluster
+// move it to the end of the word and add ay to it
+// If a word begin with a vowel, just add way at the end
