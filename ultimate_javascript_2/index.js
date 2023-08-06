@@ -517,3 +517,8 @@ function destroyerMain(arr) {
 }
 
 console.log(destroyerMain([2, 7, 5], 2, 5));
+
+// Make a function that looks through an array of object (first argument) and returns
+// an array of all objects that have matching name, value pairs (second arguments). each
+// name and value pair of the source object has to be present in the object from
+// collection if it is to be included in the refund array
