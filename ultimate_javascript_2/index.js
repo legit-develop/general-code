@@ -500,7 +500,7 @@ function destroyer(arr) {
   return arr;
 }
 
-destroyer([1, 2, 3, 4], 2, 5);
+destroyer([2, 3, 4, 5], 2, 5);
 
 //Alternative seek and destroyer
 
@@ -508,7 +508,12 @@ function destroyerMain(arr) {
   let args = [...arguments];
   let targets = args.splice(1);
   let newArr = [];
-  return targets;
+  for (let i = 0; i < arr.length; i++) {
+    if (targets.indexOf(arr[i]) === -1) {
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
 }
 
-console.log(destroyerMain([2, 3, 4, 5], 2, 5));
+console.log(destroyerMain([2, 7, 5], 2, 5));
