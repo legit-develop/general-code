@@ -528,7 +528,11 @@ function whatIsInAName(collection, source) {
   let props = Object.keys(source);
   arr = collection.filter(obj => {
     props.every(prop => obj.hasOwnProperty(prop) && obj[prop] === source[prop]){
-      
+
     }
   })
 }
+
+// Spinal Tap Case
+// Convert a string into a spinal case
+// Spinal cae is all lowercase words joined by dashes
