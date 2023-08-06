@@ -551,3 +551,9 @@ alterCaseSpinal("SIFISO Dhlamini Bheki");
 // If a word begin with a consonant, take the first consonant or consonant cluster
 // move it to the end of the word and add ay to it
 // If a word begin with a vowel, just add way at the end
+
+function translatePigLatin(str) {
+  return str;
+}
+
+console.log(translatePigLatin("movement"));
