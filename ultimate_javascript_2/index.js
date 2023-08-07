@@ -605,7 +605,15 @@ function pairElement(str) {
       pairArray.push([`${str[i]}`, "A"]);
     }
   }
-  return str;
+  return pairArray;
 }
 
-console.log(pairElement("CTCTA"));
+pairElement("CTCTA");
+
+// Alternative method
+
+function elementPair(str) {
+  let pairedArr = [];
+
+  return pairedArr;
+}
