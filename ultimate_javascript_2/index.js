@@ -577,7 +577,9 @@ translatePigLatin("movement");
 // Third argument is what you will be replacing the second argument with other
 
 function myReplace(str, before, after) {
+  let beforeFirstLetter = before[0];
+  let afterFirstLetter = after[0];
   return str;
 }
 
-console.log(myReplace("Sifiso dhlamini"));
+console.log(myReplace("He is Sleeping on the couch", "Sleeping", "sitting"));
