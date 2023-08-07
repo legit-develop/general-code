@@ -579,6 +579,9 @@ translatePigLatin("movement");
 function myReplace(str, before, after) {
   let beforeFirstLetter = before[0];
   let afterFirstLetter = after[0];
+  if (beforeFirstLetter === beforeFirstLetter.toUpperCase()) {
+    after = `${afterFirstLetter.toUpperCase()}${after.slice(1)}`;
+  }
   return str;
 }
 
