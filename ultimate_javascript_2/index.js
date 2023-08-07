@@ -593,6 +593,12 @@ myReplace("He is Sleeping on the couch", "Sleeping", "sitting");
 // Pair of SNA strands consist of nucleaos pair
 
 function pairElement(str) {
+  let pairArray = [];
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === "G") {
+      pairArray.push([`${str[i]}`, "C"]);
+    }
+  }
   return str;
 }
 
