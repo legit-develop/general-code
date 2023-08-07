@@ -587,4 +587,7 @@ function myReplace(str, before, after) {
   return str.replace(before, after);
 }
 
-console.log(myReplace("He is Sleeping on the couch", "Sleeping", "sitting"));
+myReplace("He is Sleeping on the couch", "Sleeping", "sitting");
+
+// DNA Pairing
+// Pair of SNA strands consist of nucleaos pair
