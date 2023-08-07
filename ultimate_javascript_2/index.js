@@ -581,8 +581,10 @@ function myReplace(str, before, after) {
   let afterFirstLetter = after[0];
   if (beforeFirstLetter === beforeFirstLetter.toUpperCase()) {
     after = `${afterFirstLetter.toUpperCase()}${after.slice(1)}`;
+  } else if (beforeFirstLetter === beforeFirstLetter.toLowerCase()) {
+    after = `${afterFirstLetter.toLowerCase()}${after.slice(1)}`;
   }
-  return str;
+  return str.replace(before, after);
 }
 
 console.log(myReplace("He is Sleeping on the couch", "Sleeping", "sitting"));
