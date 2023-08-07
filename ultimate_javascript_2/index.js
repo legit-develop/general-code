@@ -568,4 +568,10 @@ function translatePigLatin(str) {
   return finalString;
 }
 
-console.log(translatePigLatin("movement"));
+translatePigLatin("movement");
+
+// Search and replace
+// Perform a search and replace on the sentence using the arguments and return the new sentence
+// First argument is the sentence to perform the search and replace on
+// Second argument is the word that you will be replacing (before)
+// Third argument is what you will be replacing the second argument with other
