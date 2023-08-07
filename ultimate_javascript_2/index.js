@@ -557,7 +557,11 @@ function translatePigLatin(str) {
   let vowel = /[aeiou]/;
   let vowelResult = myStr.match(vowel);
   let firstIndex = myStr.indexOf(vowelResult);
+  let finalString = "";
+  if (firstIndex > 0) {
+    finalString = `${myStr.slice(firstIndex)}${myStr.slice(0, firstIndex)}ay`;
+  }
   return firstIndex;
 }
 
-console.log(translatePigLatin("movement"));
+translatePigLatin("movement");
