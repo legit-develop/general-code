@@ -562,6 +562,8 @@ function translatePigLatin(str) {
     finalString = `${myStr.slice(firstIndex)}${myStr.slice(0, firstIndex)}ay`;
   } else if (vowelResult === null) {
     finalString = `${myStr}ay`;
+  } else {
+    final = `${myStr}way`;
   }
   return finalString;
 }
