@@ -599,6 +599,8 @@ function pairElement(str) {
       pairArray.push([`${str[i]}`, "C"]);
     } else if (str[i] === "C") {
       pairArray.push([`${str[i]}`, "G"]);
+    } else if (str[i] === "A") {
+      pairArray.push([`${str[i]}`, "T"]);
     }
   }
   return str;
