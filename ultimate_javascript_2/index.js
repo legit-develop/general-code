@@ -614,6 +614,10 @@ pairElement("CTCTA");
 
 function elementPair(str) {
   let pairedArr = [];
-
+  function pairCheck(letter) {
+    if (letter === "A") {
+      return "T";
+    }
+  }
   return pairedArr;
 }
