@@ -591,3 +591,9 @@ myReplace("He is Sleeping on the couch", "Sleeping", "sitting");
 
 // DNA Pairing
 // Pair of SNA strands consist of nucleaos pair
+
+function pairElement(str) {
+  return str;
+}
+
+console.log(pairElement("CTCTA"));
