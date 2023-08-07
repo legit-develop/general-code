@@ -575,3 +575,9 @@ translatePigLatin("movement");
 // First argument is the sentence to perform the search and replace on
 // Second argument is the word that you will be replacing (before)
 // Third argument is what you will be replacing the second argument with other
+
+function myReplace(str, before, after) {
+  return str;
+}
+
+console.log(myReplace("Sifiso dhlamini"));
