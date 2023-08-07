@@ -560,8 +560,10 @@ function translatePigLatin(str) {
   let finalString = "";
   if (firstIndex > 0) {
     finalString = `${myStr.slice(firstIndex)}${myStr.slice(0, firstIndex)}ay`;
+  } else if (vowelResult === null) {
+    finalString = `${myStr}ay`;
   }
-  return firstIndex;
+  return finalString;
 }
 
-translatePigLatin("movement");
+console.log(translatePigLatin("movement"));
