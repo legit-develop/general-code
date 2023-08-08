@@ -661,9 +661,11 @@ function uniqueValue(arr) {
   let combineArrays = [];
 
   for (let i = 0; i < args.length; i++) {
-    combineArrays.push(args[i]);
+    combineArrays.push(...args[i]);
   }
-  return combineArrays;
+
+  uniqueValueArray.push(...new Set(combineArrays));
+  return uniqueValueArray;
 }
 
 console.log(uniqueValue([1, 3, 2], [5, 2, 1, 4], [2, 10]));
