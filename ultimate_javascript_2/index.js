@@ -656,7 +656,9 @@ missLetter("mike");
 // values in the order of the original provided array
 
 function uniqueValue(arr) {
-  return arr;
+  let args = [...arguments];
+  let uniqueValueArray = [];
+  return args;
 }
 
 console.log(uniqueValue([1, 3, 2], [5, 2, 1, 4], [2, 10]));
