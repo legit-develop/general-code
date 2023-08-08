@@ -658,7 +658,12 @@ missLetter("mike");
 function uniqueValue(arr) {
   let args = [...arguments];
   let uniqueValueArray = [];
-  return args;
+  let combineArrays = [];
+
+  for (let i = 0; i < args.length; i++) {
+    combineArrays.push(args[i]);
+  }
+  return combineArrays;
 }
 
 console.log(uniqueValue([1, 3, 2], [5, 2, 1, 4], [2, 10]));
