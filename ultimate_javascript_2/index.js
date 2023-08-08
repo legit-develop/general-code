@@ -619,6 +619,8 @@ function elementPair(str) {
       return "T";
     } else if (letter === "C") {
       return "G";
+    } else if (letter === "T") {
+      return "A";
     }
   }
   return pairedArr;
