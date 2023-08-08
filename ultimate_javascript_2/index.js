@@ -684,4 +684,7 @@ function uniteUnique(arr) {
   return unique;
 }
 
-console.log(uniteUnique([1, 2, 3], [1, 5, 6, 7], [2, 6, 9]));
+uniteUnique([1, 2, 3], [1, 5, 6, 7], [2, 6, 9]);
+
+// Convert HTML entities
+// Convert the characters $ < > " ' in a string to their corresponding HTML entities
