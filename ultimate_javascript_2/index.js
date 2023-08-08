@@ -640,6 +640,8 @@ elementPair(["CTCTA"]);
 
 function missLetter(str) {
   let alphabets = "abcdefghijklmnopqrstuvwxyz";
-  return alphabets;
+  let letterIndex = alphabets.indexOf(str[0]);
+  let targetLetter = alphabets.slice(letterIndex);
+  return targetLetter;
 }
-console.log(missLetter("traffic"));
+console.log(missLetter("mike"));
