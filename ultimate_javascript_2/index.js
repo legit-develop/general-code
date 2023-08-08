@@ -625,5 +625,9 @@ function elementPair(str) {
       return "C";
     }
   }
+
+  for (let letter of str) {
+    pairedArr.push(letter, pairCheck(letter));
+  }
   return pairedArr;
 }
