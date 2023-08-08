@@ -637,3 +637,9 @@ elementPair(["CTCTA"]);
 // Missing letter
 // Find the missing letter in a passed letter range and return it
 // If all letters are present in the range, return undefined
+
+function missLetter(str) {
+  let alphabets = "abcdefghijklmnopqrstuvwxyz";
+  return alphabets;
+}
+console.log(missLetter("traffic"));
