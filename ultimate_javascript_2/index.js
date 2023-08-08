@@ -642,6 +642,11 @@ function missLetter(str) {
   let alphabets = "abcdefghijklmnopqrstuvwxyz";
   let letterIndex = alphabets.indexOf(str[0]);
   let targetLetter = alphabets.slice(letterIndex);
-  return targetLetter;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] !== targetLetter[i]) {
+      return targetLetter[i];
+    }
+  }
+  return undefined;
 }
 console.log(missLetter("mike"));
