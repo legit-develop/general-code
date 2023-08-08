@@ -621,6 +621,8 @@ function elementPair(str) {
       return "G";
     } else if (letter === "T") {
       return "A";
+    } else if (letter === "G") {
+      return "C";
     }
   }
   return pairedArr;
