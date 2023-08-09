@@ -714,6 +714,10 @@ convertHTMLEntities("'Sifiso & Beth'");
 // Given a position integer num, return the sum of all odd finonacci numbers that are less than or equal to num.
 
 function fibonacci(num) {
+  let num1 = 0;
+  let num2 = 1;
+  let sume;
+  let fiboArray = [];
   return num;
 }
 
