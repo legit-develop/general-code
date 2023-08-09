@@ -716,9 +716,17 @@ convertHTMLEntities("'Sifiso & Beth'");
 function fibonacci(num) {
   let num1 = 0;
   let num2 = 1;
-  let sume;
+  let sum;
   let fiboArray = [];
-  return num;
+  for (let i = 0; i < num; i++) {
+    sum = num1 + num2;
+    num1 = num2;
+    num2 = sum;
+    fiboArray.push(num2);
+  }
+
+  fiboArray.unshift(num2, num1);
+  return fiboArray;
 }
 
 console.log(fibonacci(4));
