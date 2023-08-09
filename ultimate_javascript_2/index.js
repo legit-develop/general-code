@@ -738,6 +738,12 @@ function sumFibs(num) {
   let num2 = 1;
   let sum = 1;
 
+  while (num2 <= num) {
+    if (num2 % 2 === 1) {
+      sum += num2;
+    }
+  }
+
   return num;
 }
 
