@@ -756,3 +756,9 @@ sumFibs(3);
 // Sum of Primes
 // A prime number is a whole number greater than 1 with exactly two divisors 1 and itself.
 // Example 2 is a prime number divided by 1 and 2
+
+function isPrime(x) {
+  if (x === 2) {
+    return true;
+  }
+}
