@@ -701,9 +701,11 @@ function convertHTMLEntities(str) {
   for (let prop of str) {
     if (entities[prop]) {
       newStr += entities[prop];
+    } else {
+      newStr += prop;
     }
   }
-  return str;
+  return newStr;
 }
 
-console.log(convertHTMLEntities("beth"));
+convertHTMLEntities("'Sifiso & Beth'");
