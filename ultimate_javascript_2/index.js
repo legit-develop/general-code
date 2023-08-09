@@ -698,6 +698,11 @@ function convertHTMLEntities(str) {
     ">": "&gt;",
     "&": "&amp;",
   };
+  for (let prop of str) {
+    if (entities[prop]) {
+      newStr += entities[prop];
+    }
+  }
   return str;
 }
 
