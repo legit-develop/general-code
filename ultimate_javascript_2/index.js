@@ -690,6 +690,14 @@ uniteUnique([1, 2, 3], [1, 5, 6, 7], [2, 6, 9]);
 // Convert the characters $ < > " ' in a string to their corresponding HTML entities
 
 function convertHTMLEntities(str) {
+  let newStr = "";
+  const entities = {
+    '"': "&quat;",
+    "'": "&apos;",
+    "<": "&it;",
+    ">": "&gt;",
+    "&": "&amp;",
+  };
   return str;
 }
 
