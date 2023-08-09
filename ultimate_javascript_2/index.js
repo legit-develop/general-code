@@ -744,7 +744,11 @@ function sumFibs(num) {
     }
   }
 
-  return num;
+  let iterate = num2;
+  num2 = num1 + num2;
+  num1 = iterate;
+
+  return sum;
 }
 
 sumFibs(3);
