@@ -729,4 +729,16 @@ function fibonacci(num) {
   return fiboArray;
 }
 
-console.log(fibonacci(4));
+fibonacci(4);
+
+// Alternative method
+
+function sumFibs(num) {
+  let num1 = 1;
+  let num2 = 1;
+  let sum = 1;
+
+  return num;
+}
+
+sumFibs(3);
