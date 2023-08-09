@@ -712,4 +712,9 @@ convertHTMLEntities("'Sifiso & Beth'");
 
 // Sum of odd Finonacci Numbers
 // Given a position integer num, return the sum of all odd finonacci numbers that are less than or equal to num.
-//
+
+function fibonacci(num) {
+  return num;
+}
+
+console.log(fibonacci(4));
