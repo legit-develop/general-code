@@ -780,3 +780,7 @@ function subPrime(num) {
 }
 
 subPrime(2);
+
+// Drop it
+// Given the array arr, iterate through the array and remove each element starting from the first element.
+// The return the rest of the array once the condition is satisfied, otherwise the array should be returned as an empty array
