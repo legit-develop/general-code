@@ -793,6 +793,8 @@ function steamrollArray(arr) {
   for (let el of arr) {
     if (Array.isArray(el)) {
       flatArray.push(...steamrollArray(el));
+    } else {
+      flatArray.push(el);
     }
   }
   return arr;
