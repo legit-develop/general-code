@@ -837,4 +837,10 @@ function truthCheck(collection, pre) {
 
 function addTogether() {
   let arg = [...arguments];
+  let argNum = arg.length;
+  if (arg.some((el) => typeof el !== "number")) {
+    return undefined;
+  } else {
+    return arg[0] + arg[1];
+  }
 }
