@@ -807,6 +807,8 @@ steamrollArray([[1, 2, 3], 1, [3, [4]]]);
 // The binary string will be space separated
 
 function binaryAgent(str) {
+  let splitStr = str.split(" ");
+  let strArray = [];
   return str;
 }
 
