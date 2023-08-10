@@ -829,3 +829,8 @@ function truthCheck(collection, pre) {
   }
   return true;
 }
+
+// Arguments optional
+// Create a function that sums two arguments together.
+// If any one arguments is provided, then return a function that expects one
+// arguments and return the sum
