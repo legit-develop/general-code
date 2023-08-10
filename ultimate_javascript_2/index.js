@@ -822,5 +822,10 @@ binaryAgent("sifiso");
 // The predicate will be an object property and you need to return true if the value
 
 function truthCheck(collection, pre) {
-  return pre;
+  for (let el of collection) {
+    if (!el[pre]) {
+      return false;
+    }
+  }
+  return true;
 }
