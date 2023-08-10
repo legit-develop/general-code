@@ -790,6 +790,11 @@ subPrime(2);
 
 function steamrollArray(arr) {
   const flatArray = [];
+  for (let el of arr) {
+    if (Array.isArray(el)) {
+      flatArray.push(...steamrollArray(el));
+    }
+  }
   return arr;
 }
 
