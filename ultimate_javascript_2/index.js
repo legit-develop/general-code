@@ -785,15 +785,5 @@ subPrime(2);
 // Given the array arr, iterate through the array and remove each element starting from the first element.
 // The return the rest of the array once the condition is satisfied, otherwise the array should be returned as an empty array
 
-function dropElements(arr, func) {
-  while (arr.length > 0 && !func(arr[0])) {
-    arr.shift();
-  }
-  return arr;
-}
-
-console.log(
-  dropElements([1, 2, 3, 4], function (n) {
-    return n > 5;
-  })
-);
+// Steamroller
+// Flatten a nested array. You must account for varying levels of nesting
