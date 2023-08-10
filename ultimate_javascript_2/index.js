@@ -809,7 +809,10 @@ steamrollArray([[1, 2, 3], 1, [3, [4]]]);
 function binaryAgent(str) {
   let splitStr = str.split(" ");
   let strArray = [];
-  return str;
+  for (let el of splitStr) {
+    strArray.push(String.fromCharCode(parseInt(el, 2)));
+  }
+  return strArray.join("");
 }
 
 binaryAgent("sifiso");
