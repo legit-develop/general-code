@@ -844,3 +844,6 @@ function addTogether() {
     return arg[0] + arg[1];
   }
 }
+
+// Make a person
+// fill in the object constructor with the following method below
