@@ -820,3 +820,7 @@ binaryAgent("sifiso");
 // Everything be True
 // Check if the predicate (second argument) is truthy on all elements of a collection
 // The predicate will be an object property and you need to return true if the value
+
+function truthCheck(collection, pre) {
+  return pre;
+}
