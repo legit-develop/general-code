@@ -863,4 +863,7 @@ const Person = function (firstAndLast) {
   this.setFirstName = function (first) {
     firstAndLast = first + " " + this.getLastName();
   };
+  this.setLastName = function (last) {
+    firstAndLast = this.getFirstName + " " + last;
+  };
 };
