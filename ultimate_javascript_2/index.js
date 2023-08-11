@@ -847,3 +847,9 @@ function addTogether() {
 
 // Make a person
 // fill in the object constructor with the following method below
+
+const Person = function (firstAndLast) {
+  this.getFullName = function () {
+    return firstAndLast;
+  };
+};
