@@ -866,4 +866,7 @@ const Person = function (firstAndLast) {
   this.setLastName = function (last) {
     firstAndLast = this.getFirstName + " " + last;
   };
+  this.setFullName = function (full) {
+    firstAndLast = full;
+  };
 };
