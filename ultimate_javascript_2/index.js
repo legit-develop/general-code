@@ -870,3 +870,7 @@ const Person = function (firstAndLast) {
     firstAndLast = full;
   };
 };
+
+// Palindrome Checker
+// Return true if the given string is a palindrome, otherwise false
+//
