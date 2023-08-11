@@ -860,4 +860,7 @@ const Person = function (firstAndLast) {
     const [firstName, lastName] = firstAndLast.split(" ");
     return lastName;
   };
+  this.setFirstName = function (first) {
+    firstAndLast = first + " " + this.getLastName();
+  };
 };
