@@ -22,6 +22,10 @@ function rot13(str) {
     let index = alphabet.indexOf(str[i]);
     if (index >= 13) {
       newStr += alphabet[index - 13];
+    } else if (index < 13 && index > -1) {
+      newStr += alphabet[index + 13];
+    } else {
+      newStr += str[i];
     }
   }
   return alphabet;
