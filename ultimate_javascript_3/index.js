@@ -31,7 +31,14 @@ function rot13(str) {
   return newStr;
 }
 
-console.log(rot13("SERR PBQR PNZC"));
+rot13("SERR PBQR PNZC");
 
 // Telephone number validator
 // Return true if the passed string looks like a valid US phone number
+
+function telephoneCheck(str) {
+  let regexStr = /^1?\s?(\d{3}|\(\d{3}\)-?\s?\s?\d{3}-?\s?\d{4}$)/gm;
+  return regexStr.test(str);
+}
+
+telephoneCheck("555-555-555");
