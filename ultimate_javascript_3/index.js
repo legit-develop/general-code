@@ -18,6 +18,12 @@ console.log(palindrome("SIFISO"));
 function rot13(str) {
   let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   let newStr;
+  for (let i = 0; i < str.length; i++) {
+    let index = alphabet.indexOf(str[i]);
+    if (index >= 13) {
+      newStr += alphabet[index - 13];
+    }
+  }
   return alphabet;
 }
 
