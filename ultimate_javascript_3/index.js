@@ -14,3 +14,11 @@ console.log(palindrome("SIFISO"));
 // Caesars Cipher
 // One of the simplest and most widely know ciphers is a caesar cipher, also known as a shift cipher
 // In a shift cipher meanings of the letters are shifted by some set amount
+
+function rot13(str) {
+  let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  let newStr;
+  return alphabet;
+}
+
+console.log(rot13("sifiso"));
