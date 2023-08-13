@@ -28,7 +28,10 @@ function rot13(str) {
       newStr += str[i];
     }
   }
-  return alphabet;
+  return newStr;
 }
 
-console.log(rot13("sifiso"));
+console.log(rot13("SERR PBQR PNZC"));
+
+// Telephone number validator
+// Return true if the passed string looks like a valid US phone number
