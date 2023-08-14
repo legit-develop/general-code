@@ -42,3 +42,6 @@ function telephoneCheck(str) {
 }
 
 telephoneCheck("555-555-555");
+
+// Cash Register
+// Design a cash register drawer function that accepts purchase price as the first argument, payment as the second argument and cash-in-drawer (cid) as the third argument
