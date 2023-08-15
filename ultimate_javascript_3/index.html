@@ -8,6 +8,16 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
+    <style>
+      .change-color {
+        color: red;
+      }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $("btn").removeClass("btn-warning");
+      });
+    </script>
   </head>
   <body>
     <div class="container-fluid">
@@ -82,9 +92,22 @@
       <h2 class="text-center text-primary bg-dark">Awesome fonts</h2>
       <div class="col-xs-6">
         <h4 class="text-center text-secondary">Icons</h4>
+        <i class="fas fa-clock" style="font-size: 120px; color: #2196f3"></i>
+        <i class="far fa-clock" style="font-size: 120px; color: #2196f3"></i>
       </div>
       <div class="col-xs-6">
         <h4 class="text-center text-primary">Fonts</h4>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <h2 class="text-center text-primary">jQuery</h2>
+      <div class="col-xs-6">
+        <h3 class="text-center text-success">Classes</h3>
+        <button class="btn btn-block btn-warning change-color">classes</button>
+      </div>
+      <div class="col-xs-6">
+        <h3 class="text-center text-danger">Animation</h3>
       </div>
     </div>
 
