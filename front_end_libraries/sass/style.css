@@ -1,0 +1,5 @@
+@mixin make-bold($bool) {
+  @if $bool === true {
+    font-weight: bold;
+  }
+}
