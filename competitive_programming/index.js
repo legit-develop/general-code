@@ -17,7 +17,13 @@ console.log("sifiso dhlamini");
 // Find out how long it would take for your balance a pass specific threshold with the assumption that you don't make any additional deposits
 
 function depositProfit(deposit, rate, threshold) {
-  return deposit;
+  let year = 0;
+  let currentValue = deposit;
+  while (threshold > currentValue) {
+    currentValue += currentValue * (rate / 100);
+    year++;
+  }
+  return year;
 }
 
-console.log(depositProfit(200));
+console.log(depositProfit(100, 20, 170));
