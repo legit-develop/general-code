@@ -26,8 +26,19 @@ function depositProfit(deposit, rate, threshold) {
   return year;
 }
 
-console.log(depositProfit(100, 20, 170));
+depositProfit(100, 20, 170);
 
 // 3. Chunky Monkey
 // Write a function that splits an array (first argument) into groups the length of size
 // (second argument) and returns them as two-dimension array
+
+function chunkyMonkey(arr, num) {
+  let twoArray = [];
+  let count = 0;
+  while (count < arr.length) {
+    twoArray.push(arr.slice(count, (count += num)));
+  }
+  return twoArray;
+}
+
+console.log(chunkyMonkey([2, 3, 4, 5, 6], 3));
