@@ -46,3 +46,14 @@ chunkyMonkey([2, 3, 4, 5, 6], 3);
 // 4. Century Year
 // Given a year, return the century it is in. The first century span from the year 1 up to and including the year 100.
 // The second - from the year 101 up to and including the year 200.
+
+function centuryYear(year) {
+  let yearType = Math.floor(year / 100);
+  if (yearType % 2 === 0) {
+    return yearType;
+  } else {
+    return yearType + 1;
+  }
+}
+
+console.log(centuryYear(1700));
