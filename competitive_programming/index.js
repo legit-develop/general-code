@@ -41,4 +41,8 @@ function chunkyMonkey(arr, num) {
   return twoArray;
 }
 
-console.log(chunkyMonkey([2, 3, 4, 5, 6], 3));
+chunkyMonkey([2, 3, 4, 5, 6], 3);
+
+// 4. Century Year
+// Given a year, return the century it is in. The first century span from the year 1 up to and including the year 100.
+// The second - from the year 101 up to and including the year 200.
