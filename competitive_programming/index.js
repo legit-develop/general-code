@@ -9,8 +9,6 @@ function childCandy(child, candy) {
 
 childCandy(3, 14);
 
-console.log("sifiso dhlamini");
-
 // 2. Bank Deposit
 // You have deposited a specific amount of dollars into your bank account.
 // Each year your balance increases at the same growth rate.
@@ -56,4 +54,9 @@ function centuryYear(year) {
   }
 }
 
-console.log(centuryYear(1700));
+centuryYear(1700);
+
+// 5. Reverse a string
+// Reverse the provided string
+// You may need to turn the string into an array before you can reverse it.
+// The result must be a string
