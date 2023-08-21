@@ -63,7 +63,8 @@ centuryYear(1700);
 
 function reverseString(str) {
   let lowStr = str.toLowerCase();
-  return lowStr;
+  let splitStr = lowStr.split("");
+  return splitStr;
 }
 
 console.log(reverseString("DHLAMINI"));
