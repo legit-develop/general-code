@@ -62,7 +62,8 @@ centuryYear(1700);
 // The result must be a string
 
 function reverseString(str) {
-  return str;
+  let lowStr = str.toLowerCase();
+  return lowStr;
 }
 
-console.log(reverseString("sifiso"));
+console.log(reverseString("DHLAMINI"));
