@@ -73,3 +73,9 @@ reverseString("SIFISO");
 // 5. Sort by length
 // Given an array of strings, sort them in the order of increasing length.
 // If two strings have the same length, their relative order must be the same as in the initial array
+
+function sortArray(arr) {
+  return arr.sort((arr1, arr2) => arr1 - arr1);
+}
+
+sortArray([1, 2, 5, 3, 4, 2, 8, 1]);
