@@ -64,7 +64,12 @@ centuryYear(1700);
 function reverseString(str) {
   let lowStr = str.toLowerCase();
   let splitStr = lowStr.split("");
-  return splitStr;
+  let revStr = splitStr.reverse();
+  return revStr.join("");
 }
 
-console.log(reverseString("DHLAMINI"));
+reverseString("SIFISO");
+
+// 5. Sort by length
+// Given an array of strings, sort them in the order of increasing length.
+// If two strings have the same length, their relative order must be the same as in the initial array
