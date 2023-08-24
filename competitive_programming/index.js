@@ -88,7 +88,15 @@ sortArray([1, 2, 5, 3, 4, 2, 8, 1]);
 function countVowels(str) {
   const vowels = ["a", "e", "i", "o", "u"];
   const strSplit = str.split("");
-  return strSplit;
+  let strNum = 0;
+  for (let i = 0; i < strSplit.length; i++) {
+    if (vowels.includes(strSplit[i])) {
+      strNum += 1;
+    } else {
+      strNum += 2;
+    }
+  }
+  return strNum;
 }
 
-console.log(countVowels("sifiso-dhlamini"));
+console.log(countVowels("sifiso"));
