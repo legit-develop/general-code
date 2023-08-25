@@ -99,4 +99,23 @@ function countVowels(str) {
   return strNum;
 }
 
-console.log(countVowels("sifiso"));
+countVowels("sifiso");
+
+function CountVen(str) {
+  let strSplit = str.split("");
+  let vowels = ["a", "e", "i", "o", "u"];
+  let totalNum = 0;
+  for (let i = 0; i < strSplit.length; i++) {
+    if (vowels.includes(strSplit[i])) {
+      totalNum += 1;
+    } else {
+      totalNum += 2;
+    }
+  }
+  return totalNum;
+}
+
+CountVen("i");
+
+// 10. Adjacent Elements Product
+// Given an array of integers, find the pair of adjacent elements that has the largest product and return that product
