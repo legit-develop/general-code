@@ -121,7 +121,14 @@ CountVen("i");
 // Given an array of integers, find the pair of adjacent elements that has the largest product and return that product
 
 const adjacentElementProduct = (inputArray) => {
-  return inputArray;
+  let largestProduct = inputArray[0] * inputArray[1];
+  for (let i = 1; i < inputArray.length; i++) {
+    const adjacentProduct = inputArray[1] * inputArray[i + 1];
+    if (largestProduct < adjacentProduct) {
+      largestProduct = adjacentProduct;
+    }
+  }
+  return largestProduct;
 };
 
 console.log(adjacentElementProduct([1, 2, 3, 4]));
