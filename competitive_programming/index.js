@@ -133,9 +133,14 @@ const adjacentElementProduct = (inputArray) => {
 
 adjacentElementProduct([1, 2, 3, 4]);
 
-console.log("i love coding");
-
 // 11. Avoid Obstacles
 // You are given an array integers representing coordinates of obstacles situated on a straight line
 // Assume that you are jumping from the point with coordinate 0 to the right.
 // You are allowed only to make jumps of the same length represented by some integer.
+
+const inputArray = (arr) => {
+  let sortArray = arr.sort((a, b) => a - b);
+  return sortArray;
+};
+
+console.log([5, 3, 6, 7, 9, 1]);
