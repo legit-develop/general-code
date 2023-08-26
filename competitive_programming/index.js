@@ -131,4 +131,11 @@ const adjacentElementProduct = (inputArray) => {
   return largestProduct;
 };
 
-console.log(adjacentElementProduct([1, 2, 3, 4]));
+adjacentElementProduct([1, 2, 3, 4]);
+
+console.log("i love coding");
+
+// 11. Avoid Obstacles
+// You are given an array integers representing coordinates of obstacles situated on a straight line
+// Assume that you are jumping from the point with coordinate 0 to the right.
+// You are allowed only to make jumps of the same length represented by some integer.
