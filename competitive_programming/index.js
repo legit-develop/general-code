@@ -154,7 +154,10 @@ function validTime(time) {
   if (parseInt(hours) > 23 || parseInt(hours) < 0) {
     return false;
   }
-  return hours;
+  if (parseInt(minutes) > 59 || parseInt(minutes) < 0) {
+    return false;
+  }
+  return true;
 }
 
 console.log(validTime("16:45"));
