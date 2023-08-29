@@ -151,6 +151,9 @@ inputArray([1, 2, 3, 4, 5]);
 function validTime(time) {
   const timeSplit = time.split(":");
   const [hours, minutes] = timeSplit;
+  if (parseInt(hours) > 23 || parseInt(hours) < 0) {
+    return false;
+  }
   return hours;
 }
 
