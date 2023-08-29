@@ -144,3 +144,6 @@ const inputArray = (arr) => {
 };
 
 console.log([5, 3, 6, 7, 9, 1]);
+
+// 12. Challenge 12 - Valid Time
+// Check if the given string is a correct time representation of the 24-hour clock
