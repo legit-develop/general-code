@@ -150,7 +150,8 @@ inputArray([1, 2, 3, 4, 5]);
 
 function validTime(time) {
   const timeSplit = time.split(":");
-  return time;
+  const [hours, minutes] = timeSplit;
+  return hours;
 }
 
 console.log(validTime("16:45"));
